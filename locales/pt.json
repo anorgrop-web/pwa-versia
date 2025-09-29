@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "Início",
+    "guide": "Guia de Plantio",
+    "community": "Comunidade"
+  },
+  "menu": {
+    "title": "Menu",
+    "subscriptions": "Recorrência",
+    "coupons": "Cupons de Desconto",
+    "tutorials": "Tutoriais"
+  },
+  "header": {
+    "logo": "Versia Garden",
+    "profile": "Perfil do usuário",
+    "menu": "Menu"
+  },
+  "banner": {
+    "title": "Bem-vindo ao seu jardim",
+    "subtitle": "Cultive com sabedoria, colha com alegria",
+    "cta": "Começar agora"
+  },
+  "home": {
+    "plantsToday": "Suas plantas hoje",
+    "plantsDescription": "Acompanhe o crescimento das suas plantas e receba lembretes personalizados.",
+    "weeklyTips": "Dicas da semana",
+    "tipsDescription": "Descubra as melhores práticas para cuidar do seu jardim nesta época do ano."
+  },
+  "guide": {
+    "title": "Guia de Plantio",
+    "description": "Aprenda quando e como plantar suas espécies favoritas."
+  },
+  "community": {
+    "title": "Comunidade",
+    "description": "Conecte-se com outros jardineiros e compartilhe suas experiências."
+  },
+  "profile": {
+    "title": "Perfil",
+    "personalData": "Dados Pessoais",
+    "accountSettings": "Configurações da Conta",
+    "firstName": "Nome",
+    "lastName": "Sobrenome",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "address": "Endereço",
+    "language": "Idioma",
+    "security": "Segurança",
+    "resetPassword": "Redefinir Senha",
+    "saveChanges": "Salvar Alterações",
+    "changePhoto": "Alterar Foto"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "it": "Italiano",
+    "de": "Deutsch",
+    "pt": "Português",
+    "hr": "Hrvatski",
+    "pl": "Polski"
+  }
+}

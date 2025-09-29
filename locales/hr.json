@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "Početna",
+    "guide": "Vodič za Sadnju",
+    "community": "Zajednica"
+  },
+  "menu": {
+    "title": "Izbornik",
+    "subscriptions": "Pretplate",
+    "coupons": "Kuponi za Popust",
+    "tutorials": "Tutorijali"
+  },
+  "header": {
+    "logo": "Versia Garden",
+    "profile": "Korisnički profil",
+    "menu": "Izbornik"
+  },
+  "banner": {
+    "title": "Dobrodošli u vaš vrt",
+    "subtitle": "Uzgajajte s mudrošću, berite s radošću",
+    "cta": "Počnite sada"
+  },
+  "home": {
+    "plantsToday": "Vaše biljke danas",
+    "plantsDescription": "Pratite rast svojih biljaka i primajte personalizirane podsjetnike.",
+    "weeklyTips": "Tjedni savjeti",
+    "tipsDescription": "Otkrijte najbolje prakse za brigu o vašem vrtu u ovo doba godine."
+  },
+  "guide": {
+    "title": "Vodič za Sadnju",
+    "description": "Naučite kada i kako saditi svoje omiljene vrste."
+  },
+  "community": {
+    "title": "Zajednica",
+    "description": "Povežite se s drugim vrtlarima i podijelite svoja iskustva."
+  },
+  "profile": {
+    "title": "Profil",
+    "personalData": "Osobni Podaci",
+    "accountSettings": "Postavke Računa",
+    "firstName": "Ime",
+    "lastName": "Prezime",
+    "email": "E-pošta",
+    "phone": "Telefon",
+    "address": "Adresa",
+    "language": "Jezik",
+    "security": "Sigurnost",
+    "resetPassword": "Resetiraj Lozinku",
+    "saveChanges": "Spremi Promjene",
+    "changePhoto": "Promijeni Fotografiju"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "it": "Italiano",
+    "de": "Deutsch",
+    "pt": "Português",
+    "hr": "Hrvatski",
+    "pl": "Polski"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "Home",
+    "guide": "Plant Guide",
+    "community": "Community"
+  },
+  "menu": {
+    "title": "Menu",
+    "subscriptions": "Subscriptions",
+    "coupons": "Discount Coupons",
+    "tutorials": "Tutorials"
+  },
+  "header": {
+    "logo": "Versia Garden",
+    "profile": "User profile",
+    "menu": "Menu"
+  },
+  "banner": {
+    "title": "Welcome to your garden",
+    "subtitle": "Cultivate with wisdom, harvest with joy",
+    "cta": "Get started"
+  },
+  "home": {
+    "plantsToday": "Your plants today",
+    "plantsDescription": "Track your plants' growth and receive personalized reminders.",
+    "weeklyTips": "Weekly tips",
+    "tipsDescription": "Discover the best practices for caring for your garden this time of year."
+  },
+  "guide": {
+    "title": "Plant Guide",
+    "description": "Learn when and how to plant your favorite species."
+  },
+  "community": {
+    "title": "Community",
+    "description": "Connect with other gardeners and share your experiences."
+  },
+  "profile": {
+    "title": "Profile",
+    "personalData": "Personal Data",
+    "accountSettings": "Account Settings",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "language": "Language",
+    "security": "Security",
+    "resetPassword": "Reset Password",
+    "saveChanges": "Save Changes",
+    "changePhoto": "Change Photo"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "it": "Italiano",
+    "de": "Deutsch",
+    "pt": "Português",
+    "hr": "Hrvatski",
+    "pl": "Polski"
+  }
+}

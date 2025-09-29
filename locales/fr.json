@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "guide": "Guide de Plantation",
+    "community": "Communauté"
+  },
+  "menu": {
+    "title": "Menu",
+    "subscriptions": "Abonnements",
+    "coupons": "Coupons de Réduction",
+    "tutorials": "Tutoriels"
+  },
+  "header": {
+    "logo": "Versia Garden",
+    "profile": "Profil utilisateur",
+    "menu": "Menu"
+  },
+  "banner": {
+    "title": "Bienvenue dans votre jardin",
+    "subtitle": "Cultivez avec sagesse, récoltez avec joie",
+    "cta": "Commencer maintenant"
+  },
+  "home": {
+    "plantsToday": "Vos plantes aujourd'hui",
+    "plantsDescription": "Suivez la croissance de vos plantes et recevez des rappels personnalisés.",
+    "weeklyTips": "Conseils de la semaine",
+    "tipsDescription": "Découvrez les meilleures pratiques pour prendre soin de votre jardin en cette période de l'année."
+  },
+  "guide": {
+    "title": "Guide de Plantation",
+    "description": "Apprenez quand et comment planter vos espèces préférées."
+  },
+  "community": {
+    "title": "Communauté",
+    "description": "Connectez-vous avec d'autres jardiniers et partagez vos expériences."
+  },
+  "profile": {
+    "title": "Profil",
+    "personalData": "Données Personnelles",
+    "accountSettings": "Paramètres du Compte",
+    "firstName": "Prénom",
+    "lastName": "Nom de Famille",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "language": "Langue",
+    "security": "Sécurité",
+    "resetPassword": "Réinitialiser le Mot de Passe",
+    "saveChanges": "Enregistrer les Modifications",
+    "changePhoto": "Changer la Photo"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "it": "Italiano",
+    "de": "Deutsch",
+    "pt": "Português",
+    "hr": "Hrvatski",
+    "pl": "Polski"
+  }
+}

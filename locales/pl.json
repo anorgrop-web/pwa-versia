@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "Strona Główna",
+    "guide": "Przewodnik Sadzenia",
+    "community": "Społeczność"
+  },
+  "menu": {
+    "title": "Menu",
+    "subscriptions": "Subskrypcje",
+    "coupons": "Kupony Rabatowe",
+    "tutorials": "Samouczki"
+  },
+  "header": {
+    "logo": "Versia Garden",
+    "profile": "Profil użytkownika",
+    "menu": "Menu"
+  },
+  "banner": {
+    "title": "Witamy w Twoim ogrodzie",
+    "subtitle": "Uprawiaj z mądrością, zbieraj z radością",
+    "cta": "Zacznij teraz"
+  },
+  "home": {
+    "plantsToday": "Twoje rośliny dzisiaj",
+    "plantsDescription": "Śledź wzrost swoich roślin i otrzymuj spersonalizowane przypomnienia.",
+    "weeklyTips": "Tygodniowe wskazówki",
+    "tipsDescription": "Odkryj najlepsze praktyki dbania o swój ogród o tej porze roku."
+  },
+  "guide": {
+    "title": "Przewodnik Sadzenia",
+    "description": "Naucz się, kiedy i jak sadzić swoje ulubione gatunki."
+  },
+  "community": {
+    "title": "Społeczność",
+    "description": "Połącz się z innymi ogrodnikami i podziel się swoimi doświadczeniami."
+  },
+  "profile": {
+    "title": "Profil",
+    "personalData": "Dane Osobowe",
+    "accountSettings": "Ustawienia Konta",
+    "firstName": "Imię",
+    "lastName": "Nazwisko",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "address": "Adres",
+    "language": "Język",
+    "security": "Bezpieczeństwo",
+    "resetPassword": "Resetuj Hasło",
+    "saveChanges": "Zapisz Zmiany",
+    "changePhoto": "Zmień Zdjęcie"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "it": "Italiano",
+    "de": "Deutsch",
+    "pt": "Português",
+    "hr": "Hrvatski",
+    "pl": "Polski"
+  }
+}

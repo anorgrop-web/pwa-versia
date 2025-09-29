@@ -8,7 +8,9 @@
     "title": "Menu",
     "subscriptions": "Subskrypcje",
     "coupons": "Kupony Rabatowe",
-    "tutorials": "Samouczki"
+    "tutorials": "Samouczki",
+    "trackOrders": "Śledź Zamówienia",
+    "contact": "Kontakt"
   },
   "header": {
     "logo": "Versia Garden",
@@ -47,7 +49,19 @@
     "security": "Bezpieczeństwo",
     "resetPassword": "Resetuj Hasło",
     "saveChanges": "Zapisz Zmiany",
-    "changePhoto": "Zmień Zdjęcie"
+    "changePhoto": "Zmień Zdjęcie",
+    "placeholders": {
+      "firstName": "Wprowadź swoje imię",
+      "lastName": "Wprowadź swoje nazwisko",
+      "email": "Wprowadź swój e-mail",
+      "phone": "Wprowadź swój numer telefonu",
+      "address": "Wprowadź swój pełny adres"
+    },
+    "fallbacks": {
+      "userName": "Nazwa Użytkownika",
+      "userEmail": "uzytkownik@przyklad.com"
+    },
+    "policiesLink": "Warunki Użytkowania i Polityka Prywatności"
   },
   "languages": {
     "en": "English",
@@ -58,5 +72,75 @@
     "pt": "Português",
     "hr": "Hrvatski",
     "pl": "Polski"
+  },
+  "auth": {
+    "loginTitle": "Witamy z powrotem!",
+    "signupTitle": "Utwórz swoje konto",
+    "emailLabel": "E-mail",
+    "passwordLabel": "Hasło",
+    "nameLabel": "Imię",
+    "loginButton": "Zaloguj się",
+    "createAccountButton": "Utwórz Konto",
+    "signupPrompt": "Nie masz konta?",
+    "signupLink": "Zarejestruj się",
+    "loginPrompt": "Masz już konto?",
+    "loginLink": "Zaloguj się",
+    "confirmEmailMessage": "Wysłaliśmy link potwierdzający na Twój e-mail. Sprawdź swoją skrzynkę odbiorczą, aby aktywować swoje konto.",
+    "loginError": "Nieprawidłowy e-mail lub hasło.",
+    "loggingIn": "Logowanie...",
+    "creatingAccount": "Tworzenie konta...",
+    "emailPlaceholder": "twoj@email.com"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Skontaktuj się z nami",
+    "description": "W przypadku pytań, sugestii lub wsparcia, wyślij e-mail na:",
+    "email": "info@versiagarden.com",
+    "copyEmail": "Kopiuj E-mail",
+    "openEmailApp": "Otwórz Aplikację E-mail",
+    "emailCopied": "E-mail skopiowany!",
+    "emailSubject": "Kontakt - Versia Garden"
+  },
+  "policies": {
+    "mainTitle": "Warunki Użytkowania i Polityka Prywatności",
+    "lastUpdated": "Ostatnia aktualizacja: 29 września 2025",
+    "intro": "Witamy w Versia Garden! Dziękujemy za korzystanie z naszej aplikacji do uprawy Twojego ogrodu. Korzystając z naszych usług, zgadzasz się na te warunki. Prosimy o uważne przeczytanie.",
+    "termsTitle": "1. Warunki Użytkowania",
+    "termsSubtitle1": "1.1. Akceptacja Warunków",
+    "termsText1": "Tworząc konto i korzystając z aplikacji Versia Garden, potwierdzasz, że przeczytałeś, zrozumiałeś i zgadzasz się przestrzegać tych Warunków Użytkowania i naszej Polityki Prywatności.",
+    "termsSubtitle2": "1.2. Minimalny Wiek",
+    "termsText2": "Musisz mieć co najmniej 18 lat, aby utworzyć konto i korzystać z usług Versia Garden.",
+    "termsSubtitle3": "1.3. Zasady Społeczności",
+    "termsText3": "Versia Garden zapewnia przestrzeń dla społeczności do dzielenia się doświadczeniami. Aby utrzymać pozytywne i skoncentrowane środowisko, zgadzasz się:",
+    "communityRule1": "Publikować tylko treści (teksty, zdjęcia, pytania) ściśle związane z ogrodnictwem, roślinami i uprawą.",
+    "communityRule2": "Nie publikować obraźliwych materiałów, spamu, nieautoryzowanych reklam lub jakichkolwiek treści naruszających prawo lub prawa osób trzecich.",
+    "communityRule3": "Zespół Versia Garden zastrzega sobie prawo do moderowania, edytowania lub usuwania wszelkich treści, które nie są zgodne z tymi zasadami, według naszego wyłącznego uznania.",
+    "termsSubtitle4": "1.4. Własność Intelektualna",
+    "termsText4": "Aplikacja i cała jej oryginalna zawartość, funkcje i funkcjonalności są i pozostaną wyłączną własnością Versia Garden LLC i jej licencjodawców.",
+    "privacyTitle": "2. Polityka Prywatności",
+    "privacyIntro": "Twoja prywatność jest dla nas bardzo ważna. Ta polityka wyjaśnia, jakie dane zbieramy, dlaczego je zbieramy i jak możesz nimi zarządzać.",
+    "privacySubtitle1": "2.1. Dane, które Zbieramy",
+    "privacyText1": "Aby świadczyć nasze usługi, zbieramy następujące informacje osobiste podczas tworzenia konta:",
+    "dataType1": "Imię i Nazwisko",
+    "dataType2": "Adres e-mail",
+    "dataType3": "Numer telefonu",
+    "dataType4": "Adres dostawy",
+    "privacySubtitle2": "2.2. Jak Wykorzystujemy Twoje Dane",
+    "privacyText2": "Wykorzystujemy zebrane dane w następujących celach:",
+    "dataUse1": "Personalizacja Twojego doświadczenia: Dostosowanie treści i funkcjonalności aplikacji dla Ciebie.",
+    "dataUse2": "Przetwarzanie Twoich zamówień: Zarządzanie zakupem i dostawą produktów.",
+    "dataUse3": "Komunikacja: Wysyłanie ważnych powiadomień o Twoich zamówieniach, wskazówek dotyczących uprawy i informacji o koncie.",
+    "dataUse4": "Marketing: Wysyłanie e-maili z promocjami i nowościami o Versia Garden, z których możesz zrezygnować w dowolnym momencie.",
+    "privacySubtitle3": "2.3. Udostępnianie Danych",
+    "privacyText3": "Versia Garden LLC nie sprzedaje ani nie wynajmuje Twoich danych osobowych. Twoje dane są bezpiecznie przechowywane u nas. Jednak aby aplikacja działała, udostępniamy dane następującym podstawowym dostawcom usług, którzy są umownie zobowiązani do ich ochrony:",
+    "sharingPartner1": "Supabase: Do bezpiecznego przechowywania bazy danych i uwierzytelniania konta.",
+    "sharingPartner2": "Google Maps: Do zapewnienia funkcjonalności automatycznego uzupełniania i sugerowania adresów.",
+    "privacySubtitle4": "2.4. Przechowywanie i Usuwanie Danych",
+    "privacyText4": "Będziemy przechowywać Twoje dane osobowe, dopóki Twoje konto jest aktywne. Jeśli zdecydujesz się usunąć swoje konto, Twoje dane zostaną trwale usunięte z naszych systemów w ciągu 90 dni.",
+    "changesTitle": "3. Zmiany w Warunkach",
+    "changesText": "Możemy okresowo aktualizować nasze Warunki i Politykę Prywatności. Powiadomimy Cię o wszelkich zmianach, publikując nową wersję na tej stronie.",
+    "contactTitle": "4. Kontakt",
+    "contactText": "Jeśli masz pytania dotyczące tych polityk, skontaktuj się z nami przez e-mail:",
+    "companyName": "Odpowiedzialna Firma:"
   }
 }

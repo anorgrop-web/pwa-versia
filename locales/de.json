@@ -8,7 +8,9 @@
     "title": "Menü",
     "subscriptions": "Abonnements",
     "coupons": "Rabattgutscheine",
-    "tutorials": "Tutorials"
+    "tutorials": "Tutorials",
+    "trackOrders": "Bestellungen verfolgen",
+    "contact": "Kontakt"
   },
   "header": {
     "logo": "Versia Garden",
@@ -47,7 +49,19 @@
     "security": "Sicherheit",
     "resetPassword": "Passwort zurücksetzen",
     "saveChanges": "Änderungen speichern",
-    "changePhoto": "Foto ändern"
+    "changePhoto": "Foto ändern",
+    "placeholders": {
+      "firstName": "Geben Sie Ihren Vornamen ein",
+      "lastName": "Geben Sie Ihren Nachnamen ein",
+      "email": "Geben Sie Ihre E-Mail ein",
+      "phone": "Geben Sie Ihre Telefonnummer ein",
+      "address": "Geben Sie Ihre vollständige Adresse ein"
+    },
+    "fallbacks": {
+      "userName": "Benutzername",
+      "userEmail": "benutzer@beispiel.com"
+    },
+    "policiesLink": "Nutzungsbedingungen und Datenschutzrichtlinie"
   },
   "languages": {
     "en": "English",
@@ -58,5 +72,75 @@
     "pt": "Português",
     "hr": "Hrvatski",
     "pl": "Polski"
+  },
+  "auth": {
+    "loginTitle": "Willkommen zurück!",
+    "signupTitle": "Konto erstellen",
+    "emailLabel": "E-Mail",
+    "passwordLabel": "Passwort",
+    "nameLabel": "Name",
+    "loginButton": "Anmelden",
+    "createAccountButton": "Konto erstellen",
+    "signupPrompt": "Haben Sie noch kein Konto?",
+    "signupLink": "Registrieren",
+    "loginPrompt": "Haben Sie bereits ein Konto?",
+    "loginLink": "Anmelden",
+    "confirmEmailMessage": "Wir haben einen Bestätigungslink an Ihre E-Mail-Adresse gesendet. Bitte überprüfen Sie Ihren Posteingang, um Ihr Konto zu aktivieren.",
+    "loginError": "Ungültige E-Mail oder Passwort.",
+    "loggingIn": "Anmeldung läuft...",
+    "creatingAccount": "Konto wird erstellt...",
+    "emailPlaceholder": "ihre@email.com"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Kontaktieren Sie uns",
+    "description": "Für Fragen, Anregungen oder Support senden Sie eine E-Mail an:",
+    "email": "info@versiagarden.com",
+    "copyEmail": "E-Mail kopieren",
+    "openEmailApp": "E-Mail-App öffnen",
+    "emailCopied": "E-Mail kopiert!",
+    "emailSubject": "Kontakt - Versia Garden"
+  },
+  "policies": {
+    "mainTitle": "Nutzungsbedingungen und Datenschutzrichtlinie",
+    "lastUpdated": "Letzte Aktualisierung: 29. September 2025",
+    "intro": "Willkommen bei Versia Garden! Vielen Dank, dass Sie unsere App für die Pflege Ihres Gartens verwenden. Durch die Nutzung unserer Dienste stimmen Sie diesen Bedingungen zu. Bitte lesen Sie sie sorgfältig durch.",
+    "termsTitle": "1. Nutzungsbedingungen",
+    "termsSubtitle1": "1.1. Annahme der Bedingungen",
+    "termsText1": "Durch das Erstellen eines Kontos und die Nutzung der Versia Garden App bestätigen Sie, dass Sie diese Nutzungsbedingungen und unsere Datenschutzrichtlinie gelesen, verstanden und zugestimmt haben.",
+    "termsSubtitle2": "1.2. Mindestalter",
+    "termsText2": "Sie müssen mindestens 18 Jahre alt sein, um ein Konto zu erstellen und die Dienste von Versia Garden zu nutzen.",
+    "termsSubtitle3": "1.3. Community-Regeln",
+    "termsText3": "Versia Garden bietet einen Raum für die Community, um Erfahrungen zu teilen. Um eine positive und fokussierte Umgebung zu erhalten, stimmen Sie zu:",
+    "communityRule1": "Nur Inhalte (Texte, Fotos, Fragen) zu veröffentlichen, die strikt mit Gartenbau, Pflanzen und Anbau zusammenhängen.",
+    "communityRule2": "Keine beleidigenden Materialien, Spam, unerlaubte Werbung oder Inhalte zu veröffentlichen, die gegen Gesetze oder Rechte Dritter verstoßen.",
+    "communityRule3": "Das Versia Garden Team behält sich das Recht vor, Inhalte zu moderieren, zu bearbeiten oder zu entfernen, die nicht diesen Regeln entsprechen, nach unserem alleinigen Ermessen.",
+    "termsSubtitle4": "1.4. Geistiges Eigentum",
+    "termsText4": "Die App und alle ihre ursprünglichen Inhalte, Funktionen und Funktionalitäten sind und bleiben das ausschließliche Eigentum von Versia Garden LLC und ihren Lizenzgebern.",
+    "privacyTitle": "2. Datenschutzrichtlinie",
+    "privacyIntro": "Ihre Privatsphäre ist uns sehr wichtig. Diese Richtlinie erklärt, welche Daten wir sammeln, warum wir sie sammeln und wie Sie sie verwalten können.",
+    "privacySubtitle1": "2.1. Daten, die wir sammeln",
+    "privacyText1": "Um unsere Dienste bereitzustellen, sammeln wir die folgenden persönlichen Informationen, wenn Sie Ihr Konto erstellen:",
+    "dataType1": "Vor- und Nachname",
+    "dataType2": "E-Mail-Adresse",
+    "dataType3": "Telefonnummer",
+    "dataType4": "Lieferadresse",
+    "privacySubtitle2": "2.2. Wie wir Ihre Daten verwenden",
+    "privacyText2": "Wir verwenden die gesammelten Daten für die folgenden Zwecke:",
+    "dataUse1": "Personalisierung Ihrer Erfahrung: Anpassung der App-Inhalte und -Funktionen für Sie.",
+    "dataUse2": "Bearbeitung Ihrer Bestellungen: Verwaltung des Kaufs und der Lieferung von Produkten.",
+    "dataUse3": "Kommunikation: Versendung wichtiger Benachrichtigungen über Ihre Bestellungen, Anbautipps und Kontoinformationen.",
+    "dataUse4": "Marketing: Versendung von E-Mails mit Werbeaktionen und Neuigkeiten über Versia Garden, von denen Sie sich jederzeit abmelden können.",
+    "privacySubtitle3": "2.3. Datenweitergabe",
+    "privacyText3": "Versia Garden LLC verkauft oder vermietet Ihre persönlichen Informationen nicht. Ihre Daten werden sicher bei uns aufbewahrt. Damit die App jedoch funktioniert, teilen wir Daten mit den folgenden wesentlichen Dienstleistern, die vertraglich verpflichtet sind, sie zu schützen:",
+    "sharingPartner1": "Supabase: Für sichere Datenbankspeicherung und Kontoanmeldung.",
+    "sharingPartner2": "Google Maps: Zur Bereitstellung von Adress-Autovervollständigung und Vorschlagsfunktionalität.",
+    "privacySubtitle4": "2.4. Datenspeicherung und -löschung",
+    "privacyText4": "Wir werden Ihre persönlichen Daten aufbewahren, solange Ihr Konto aktiv ist. Wenn Sie sich entscheiden, Ihr Konto zu löschen, werden Ihre Daten innerhalb von 90 Tagen dauerhaft aus unseren Systemen entfernt.",
+    "changesTitle": "3. Änderungen der Bedingungen",
+    "changesText": "Wir können unsere Bedingungen und Datenschutzrichtlinie regelmäßig aktualisieren. Wir werden Sie über alle Änderungen informieren, indem wir die neue Version auf dieser Seite veröffentlichen.",
+    "contactTitle": "4. Kontakt",
+    "contactText": "Wenn Sie Fragen zu diesen Richtlinien haben, kontaktieren Sie uns bitte per E-Mail:",
+    "companyName": "Verantwortliches Unternehmen:"
   }
 }

@@ -8,7 +8,9 @@
     "title": "Izbornik",
     "subscriptions": "Pretplate",
     "coupons": "Kuponi za Popust",
-    "tutorials": "Tutorijali"
+    "tutorials": "Tutorijali",
+    "trackOrders": "Praćenje Narudžbi",
+    "contact": "Kontakt"
   },
   "header": {
     "logo": "Versia Garden",
@@ -47,7 +49,19 @@
     "security": "Sigurnost",
     "resetPassword": "Resetiraj Lozinku",
     "saveChanges": "Spremi Promjene",
-    "changePhoto": "Promijeni Fotografiju"
+    "changePhoto": "Promijeni Fotografiju",
+    "placeholders": {
+      "firstName": "Unesite svoje ime",
+      "lastName": "Unesite svoje prezime",
+      "email": "Unesite svoju e-poštu",
+      "phone": "Unesite svoj broj telefona",
+      "address": "Unesite svoju potpunu adresu"
+    },
+    "fallbacks": {
+      "userName": "Korisničko Ime",
+      "userEmail": "korisnik@primjer.com"
+    },
+    "policiesLink": "Uvjeti Korištenja i Pravila Privatnosti"
   },
   "languages": {
     "en": "English",
@@ -58,5 +72,75 @@
     "pt": "Português",
     "hr": "Hrvatski",
     "pl": "Polski"
+  },
+  "auth": {
+    "loginTitle": "Dobrodošli natrag!",
+    "signupTitle": "Stvorite svoj račun",
+    "emailLabel": "E-pošta",
+    "passwordLabel": "Lozinka",
+    "nameLabel": "Ime",
+    "loginButton": "Prijavite se",
+    "createAccountButton": "Stvori Račun",
+    "signupPrompt": "Nemate račun?",
+    "signupLink": "Registrirajte se",
+    "loginPrompt": "Već imate račun?",
+    "loginLink": "Prijavite se",
+    "confirmEmailMessage": "Poslali smo link za potvrdu na vašu e-poštu. Molimo provjerite svoju poštu da aktivirate svoj račun.",
+    "loginError": "Neispravna e-pošta ili lozinka.",
+    "loggingIn": "Prijavljujem...",
+    "creatingAccount": "Stvaram račun...",
+    "emailPlaceholder": "vasa@email.com"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Kontaktirajte nas",
+    "description": "Za pitanja, prijedloge ili podršku, pošaljite e-poštu na:",
+    "email": "info@versiagarden.com",
+    "copyEmail": "Kopiraj E-poštu",
+    "openEmailApp": "Otvori E-poštu",
+    "emailCopied": "E-pošta kopirana!",
+    "emailSubject": "Kontakt - Versia Garden"
+  },
+  "policies": {
+    "mainTitle": "Uvjeti Korištenja i Pravila Privatnosti",
+    "lastUpdated": "Zadnje ažuriranje: 29. rujna 2025.",
+    "intro": "Dobrodošli u Versia Garden! Hvala vam što koristite našu aplikaciju za uzgoj vašeg vrta. Korištenjem naših usluga prihvaćate ove uvjete. Molimo pročitajte ih pažljivo.",
+    "termsTitle": "1. Uvjeti Korištenja",
+    "termsSubtitle1": "1.1. Prihvaćanje Uvjeta",
+    "termsText1": "Stvaranjem računa i korištenjem aplikacije Versia Garden potvrđujete da ste pročitali, razumjeli i prihvatili poštovati ove Uvjete Korištenja i naša Pravila Privatnosti.",
+    "termsSubtitle2": "1.2. Minimalna Dob",
+    "termsText2": "Morate imati najmanje 18 godina da biste stvorili račun i koristili usluge Versia Garden.",
+    "termsSubtitle3": "1.3. Pravila Zajednice",
+    "termsText3": "Versia Garden pruža prostor za zajednicu da dijeli iskustva. Za održavanje pozitivnog i usmjerenog okruženja prihvaćate:",
+    "communityRule1": "Objavljivati samo sadržaj (tekstove, fotografije, pitanja) striktno povezan s vrtlarstvom, biljkama i uzgojem.",
+    "communityRule2": "Ne objavljivati uvredljiv materijal, spam, neovlašteno oglašavanje ili bilo koji sadržaj koji krši zakon ili prava treće strane.",
+    "communityRule3": "Tim Versia Garden zadržava pravo moderiranja, uređivanja ili uklanjanja bilo kojeg sadržaja koji ne poštuje ova pravila, prema našoj isključivoj procjeni.",
+    "termsSubtitle4": "1.4. Intelektualno Vlasništvo",
+    "termsText4": "Aplikacija i sav njen izvorni sadržaj, značajke i funkcionalnosti jesu i ostat će isključivo vlasništvo Versia Garden LLC-a i njegovih davatelja licenci.",
+    "privacyTitle": "2. Pravila Privatnosti",
+    "privacyIntro": "Vaša privatnost nam je vrlo važna. Ova politika objašnjava koje podatke prikupljamo, zašto ih prikupljamo i kako ih možete upravljati.",
+    "privacySubtitle1": "2.1. Podaci koje Prikupljamo",
+    "privacyText1": "Za pružanje naših usluga prikupljamo sljedeće osobne informacije kada stvarate svoj račun:",
+    "dataType1": "Ime i Prezime",
+    "dataType2": "E-mail adresa",
+    "dataType3": "Broj telefona",
+    "dataType4": "Adresa za dostavu",
+    "privacySubtitle2": "2.2. Kako Koristimo Vaše Podatke",
+    "privacyText2": "Koristimo prikupljene podatke u sljedeće svrhe:",
+    "dataUse1": "Personalizacija vašeg iskustva: Prilagođavanje sadržaja i funkcionalnosti aplikacije za vas.",
+    "dataUse2": "Obrada vaših narudžbi: Upravljanje kupovinom i dostavom proizvoda.",
+    "dataUse3": "Komunikacija: Slanje važnih obavještenja o vašim narudžbama, savjeta za uzgoj i informacija o računu.",
+    "dataUse4": "Marketing: Slanje e-mailova s promocijama i novostima o Versia Garden, od kojih se možete odjaviti u bilo kojem trenutku.",
+    "privacySubtitle3": "2.3. Dijeljenje Podataka",
+    "privacyText3": "Versia Garden LLC ne prodaje niti iznajmljuje vaše osobne informacije. Vaši podaci se čuvaju sigurno kod nas. Međutim, da bi aplikacija funkcionirala, dijelimo podatke sa sljedećim osnovnim pružateljima usluga koji su ugovorno obvezni ih zaštititi:",
+    "sharingPartner1": "Supabase: Za sigurno pohranjivanje baze podataka i autentifikaciju računa.",
+    "sharingPartner2": "Google Maps: Za pružanje funkcionalnosti automatskog dovršavanja i prijedloga adresa.",
+    "privacySubtitle4": "2.4. Pohranjivanje i Brisanje Podataka",
+    "privacyText4": "Čuvat ćemo vaše osobne podatke dok je vaš račun aktivan. Ako se odlučite obrisati svoj račun, vaši podaci će biti trajno uklonjeni iz naših sustava u roku od 90 dana.",
+    "changesTitle": "3. Promjene Uvjeta",
+    "changesText": "Možemo povremeno ažurirati naše Uvjete i Pravila Privatnosti. Obavijestit ćemo vas o svim promjenama objavljivanjem nove verzije na ovoj stranici.",
+    "contactTitle": "4. Kontakt",
+    "contactText": "Ako imate pitanja o ovim pravilima, kontaktirajte nas putem e-maila:",
+    "companyName": "Odgovorna Tvrtka:"
   }
 }

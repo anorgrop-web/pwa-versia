@@ -12,6 +12,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Separator } from "@/components/ui/separator"
 import { BottomNavigation } from "@/components/bottom-navigation"
 import { useRouter } from "next/navigation"
+import Link from "next/link"
 
 const countryCodes = [
   { code: "+55", country: "Brasil", flag: "🇧🇷", languages: ["pt", "pt-BR"] },
@@ -140,9 +141,9 @@ export default function ProfilePage() {
                   <h2 className="text-xl font-semibold text-foreground">
                     {formData.firstName || formData.lastName
                       ? `${formData.firstName} ${formData.lastName}`.trim()
-                      : "Nome do Usuário"}
+                      : t("profile.fallbacks.userName")}
                   </h2>
-                  <p className="text-sm text-muted-foreground">{formData.email || "email@exemplo.com"}</p>
+                  <p className="text-sm text-muted-foreground">{formData.email || t("profile.fallbacks.userEmail")}</p>
                 </div>
               </div>
             </CardContent>
@@ -164,7 +165,7 @@ export default function ProfilePage() {
                     value={formData.firstName}
                     onChange={(e) => handleInputChange("firstName", e.target.value)}
                     className="text-base"
-                    placeholder="Digite seu nome"
+                    placeholder={t("profile.placeholders.firstName")}
                   />
                 </div>
                 <div className="space-y-2">
@@ -176,7 +177,7 @@ export default function ProfilePage() {
                     value={formData.lastName}
                     onChange={(e) => handleInputChange("lastName", e.target.value)}
                     className="text-base"
-                    placeholder="Digite seu sobrenome"
+                    placeholder={t("profile.placeholders.lastName")}
                   />
                 </div>
               </div>
@@ -191,7 +192,7 @@ export default function ProfilePage() {
                   value={formData.email}
                   onChange={(e) => handleInputChange("email", e.target.value)}
                   className="text-base"
-                  placeholder="Digite seu e-mail"
+                  placeholder={t("profile.placeholders.email")}
                 />
               </div>
 
@@ -224,7 +225,7 @@ export default function ProfilePage() {
                     value={formData.phoneNumber}
                     onChange={(e) => handleInputChange("phoneNumber", e.target.value)}
                     className="text-base flex-1"
-                    placeholder="Digite seu telefone"
+                    placeholder={t("profile.placeholders.phone")}
                   />
                 </div>
               </div>
@@ -238,7 +239,7 @@ export default function ProfilePage() {
                   value={formData.address}
                   onChange={(e) => handleInputChange("address", e.target.value)}
                   className="text-base"
-                  placeholder="Digite seu endereço completo"
+                  placeholder={t("profile.placeholders.address")}
                 />
               </div>
 
@@ -294,6 +295,16 @@ export default function ProfilePage() {
               </div>
             </CardContent>
           </Card>
+
+          {/* Policies Link */}
+          <div className="text-center pb-4">
+            <Link
+              href="/policies"
+              className="text-sm text-muted-foreground hover:text-primary underline transition-colors"
+            >
+              {t("profile.policiesLink")}
+            </Link>
+          </div>
         </div>
       </main>
 

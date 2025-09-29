@@ -8,7 +8,9 @@
     "title": "Menú",
     "subscriptions": "Suscripciones",
     "coupons": "Cupones de Descuento",
-    "tutorials": "Tutoriales"
+    "tutorials": "Tutoriales",
+    "trackOrders": "Seguir Pedidos",
+    "contact": "Contacto"
   },
   "header": {
     "logo": "Versia Garden",
@@ -47,7 +49,19 @@
     "security": "Seguridad",
     "resetPassword": "Restablecer Contraseña",
     "saveChanges": "Guardar Cambios",
-    "changePhoto": "Cambiar Foto"
+    "changePhoto": "Cambiar Foto",
+    "placeholders": {
+      "firstName": "Ingresa tu nombre",
+      "lastName": "Ingresa tu apellido",
+      "email": "Ingresa tu correo electrónico",
+      "phone": "Ingresa tu número de teléfono",
+      "address": "Ingresa tu dirección completa"
+    },
+    "fallbacks": {
+      "userName": "Nombre de Usuario",
+      "userEmail": "usuario@ejemplo.com"
+    },
+    "policiesLink": "Términos de Uso y Política de Privacidad"
   },
   "languages": {
     "en": "English",
@@ -58,5 +72,75 @@
     "pt": "Português",
     "hr": "Hrvatski",
     "pl": "Polski"
+  },
+  "auth": {
+    "loginTitle": "¡Bienvenido de vuelta!",
+    "signupTitle": "Crea tu cuenta",
+    "emailLabel": "Correo Electrónico",
+    "passwordLabel": "Contraseña",
+    "nameLabel": "Nombre",
+    "loginButton": "Iniciar Sesión",
+    "createAccountButton": "Crear Cuenta",
+    "signupPrompt": "¿No tienes una cuenta?",
+    "signupLink": "Regístrate",
+    "loginPrompt": "¿Ya tienes una cuenta?",
+    "loginLink": "Inicia sesión",
+    "confirmEmailMessage": "Hemos enviado un enlace de confirmación a tu correo electrónico. Por favor, revisa tu bandeja de entrada para activar tu cuenta.",
+    "loginError": "Correo electrónico o contraseña inválidos.",
+    "loggingIn": "Iniciando sesión...",
+    "creatingAccount": "Creando cuenta...",
+    "emailPlaceholder": "tu@email.com"
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Ponte en contacto con nosotros",
+    "description": "Para preguntas, sugerencias o soporte, envía un correo electrónico a:",
+    "email": "info@versiagarden.com",
+    "copyEmail": "Copiar Correo",
+    "openEmailApp": "Abrir App de Correo",
+    "emailCopied": "¡Correo copiado!",
+    "emailSubject": "Contacto - Versia Garden"
+  },
+  "policies": {
+    "mainTitle": "Términos de Uso y Política de Privacidad",
+    "lastUpdated": "Última actualización: 29 de septiembre de 2025",
+    "intro": "¡Bienvenido a Versia Garden! Gracias por usar nuestra aplicación para cultivar tu jardín. Al usar nuestros servicios, aceptas estos términos. Por favor, léelos cuidadosamente.",
+    "termsTitle": "1. Términos de Uso",
+    "termsSubtitle1": "1.1. Aceptación de los Términos",
+    "termsText1": "Al crear una cuenta y usar la aplicación Versia Garden, confirmas que has leído, entendido y aceptas cumplir con estos Términos de Uso y nuestra Política de Privacidad.",
+    "termsSubtitle2": "1.2. Edad Mínima",
+    "termsText2": "Debes tener al menos 18 años de edad para crear una cuenta y utilizar los servicios de Versia Garden.",
+    "termsSubtitle3": "1.3. Reglas de la Comunidad",
+    "termsText3": "Versia Garden ofrece un espacio para que la comunidad comparta experiencias. Para mantener un ambiente positivo y enfocado, aceptas:",
+    "communityRule1": "Publicar solo contenido (textos, fotos, preguntas) estrictamente relacionado con jardinería, plantas y cultivo.",
+    "communityRule2": "No publicar material ofensivo, spam, publicidad no autorizada o cualquier contenido que viole la ley o los derechos de terceros.",
+    "communityRule3": "El equipo de Versia Garden se reserva el derecho de moderar, editar o eliminar cualquier contenido que no esté de acuerdo con estas reglas, a nuestro exclusivo criterio.",
+    "termsSubtitle4": "1.4. Propiedad Intelectual",
+    "termsText4": "La aplicación y todo su contenido original, recursos y funcionalidades son y permanecerán propiedad exclusiva de Versia Garden LLC y sus licenciantes.",
+    "privacyTitle": "2. Política de Privacidad",
+    "privacyIntro": "Tu privacidad es muy importante para nosotros. Esta política explica qué datos recopilamos, por qué los recopilamos y cómo puedes gestionarlos.",
+    "privacySubtitle1": "2.1. Datos que Recopilamos",
+    "privacyText1": "Para proporcionar nuestros servicios, recopilamos la siguiente información personal cuando creas tu cuenta:",
+    "dataType1": "Nombre y Apellido",
+    "dataType2": "Dirección de correo electrónico",
+    "dataType3": "Número de teléfono",
+    "dataType4": "Dirección de entrega",
+    "privacySubtitle2": "2.2. Cómo Usamos Tus Datos",
+    "privacyText2": "Utilizamos los datos recopilados para los siguientes propósitos:",
+    "dataUse1": "Personalizar tu experiencia: Adaptar el contenido y las funcionalidades de la aplicación para ti.",
+    "dataUse2": "Procesar tus pedidos: Gestionar la compra y entrega de productos.",
+    "dataUse3": "Comunicación: Enviar notificaciones importantes sobre tus pedidos, consejos de cultivo e información de tu cuenta.",
+    "dataUse4": "Marketing: Enviar correos electrónicos con promociones y noticias sobre Versia Garden, de los cuales puedes darte de baja en cualquier momento.",
+    "privacySubtitle3": "2.3. Compartir Datos",
+    "privacyText3": "Versia Garden LLC no vende ni alquila tu información personal. Tus datos se mantienen seguros con nosotros. Sin embargo, para que la aplicación funcione, compartimos datos con los siguientes proveedores de servicios esenciales que están contractualmente obligados a protegerlos:",
+    "sharingPartner1": "Supabase: Para almacenamiento seguro de base de datos y autenticación de cuenta.",
+    "sharingPartner2": "Google Maps: Para proporcionar la funcionalidad de autocompletado y sugerencia de direcciones.",
+    "privacySubtitle4": "2.4. Almacenamiento y Eliminación de Datos",
+    "privacyText4": "Mantendremos tus datos personales mientras tu cuenta esté activa. Si decides eliminar tu cuenta, tus datos serán eliminados permanentemente de nuestros sistemas en un plazo de 90 días.",
+    "changesTitle": "3. Cambios en los Términos",
+    "changesText": "Podemos actualizar nuestros Términos y Política de Privacidad periódicamente. Te notificaremos sobre cualquier cambio publicando la nueva versión en esta página.",
+    "contactTitle": "4. Contacto",
+    "contactText": "Si tienes alguna pregunta sobre estas políticas, contáctanos por correo electrónico:",
+    "companyName": "Empresa Responsable:"
   }
 }

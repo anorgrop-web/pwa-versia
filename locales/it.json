@@ -8,6 +8,7 @@
     "title": "Menu",
     "subscriptions": "Abbonamenti",
     "coupons": "Coupon Sconto",
+    "plantingArea": "Area di Piantagione",
     "tutorials": "Tutorial",
     "trackOrders": "Traccia Ordini",
     "contact": "Contatto"
@@ -62,6 +63,26 @@
       "userEmail": "utente@esempio.com"
     },
     "policiesLink": "Termini di Utilizzo e Informativa sulla Privacy"
+  },
+  "coupons": {
+    "title": "Coupon Sconto",
+    "revealButton": "Rivela Coupon",
+    "copyButton": "Copia",
+    "copiedButton": "Copiato!",
+    "goToWebsite": "Vai al Sito",
+    "redeemTitle": "Riscatta i tuoi coupon e approfitta degli sconti sul nostro sito",
+    "howToUse": "Come usare i tuoi coupon",
+    "step1": "Clicca su rivela coupon",
+    "step2": "Clicca su copia, per copiare il coupon",
+    "step3": "Clicca su 'Vai al Sito'",
+    "step4": "Scegli i prodotti da acquistare",
+    "step5": "Utilizza il coupon al checkout e goditi il tuo acquisto con sconto",
+    "GARDEN10": {
+      "description": "Ottieni il 10% di sconto su qualsiasi acquisto nella nostra app."
+    },
+    "OCT5": {
+      "description": "Offerta speciale di Ottobre! Usa questo coupon per il 5% di sconto sui semi."
+    }
   },
   "languages": {
     "en": "English",
@@ -142,5 +163,66 @@
     "contactTitle": "4. Contatto",
     "contactText": "Se hai domande su queste politiche, contattaci via email:",
     "companyName": "Azienda Responsabile:"
+  },
+  "recurrence": {
+    "title": "Gestione Ricorrenze",
+    "description": "Gestisci i tuoi abbonamenti e consegne ricorrenti",
+    "noRecurrences": "Non hai ricorrenze attive",
+    "noRecurrencesDescription": "Quando ti abboni a consegne ricorrenti, appariranno qui.",
+    "active": "Attiva",
+    "paused": "In Pausa",
+    "cancelled": "Annullata",
+    "frequency": "Frequenza",
+    "nextDelivery": "Prossima Consegna",
+    "startDate": "Data di Inizio",
+    "status": "Stato",
+    "actions": "Azioni",
+    "pause": "Metti in Pausa",
+    "resume": "Riprendi",
+    "cancel": "Annulla",
+    "edit": "Modifica",
+    "confirmCancel": "Sei sicuro di voler annullare questa ricorrenza?",
+    "confirmPause": "Sei sicuro di voler mettere in pausa questa ricorrenza?",
+    "weekly": "Settimanale",
+    "biweekly": "Bisettimanale",
+    "monthly": "Mensile",
+    "quarterly": "Trimestrale"
+  },
+  "plantingArea": {
+    "title": "Area di Piantagione",
+    "description": "Impara a germinare e coltivare le tue piante preferite con guide passo dopo passo",
+    "hibiscus": {
+      "description": "Impara come germinare e coltivare i tuoi ibiscus in modo sano con questa guida passo dopo passo"
+    },
+    "hibiscusTutorial": {
+      "title": "Guida alla Coltivazione dell'Ibisco",
+      "subtitle": "Guida completa passo dopo passo per germinare e coltivare ibiscus sani",
+      "step1": {
+        "title": "Preparazione dei Semi",
+        "description": "Immergere i semi di ibisco in acqua tiepida per 24 ore per ammorbidire il guscio esterno duro e migliorare i tassi di germinazione."
+      },
+      "step2": {
+        "title": "Piantagione",
+        "description": "Piantare i semi a 1/4 di pollice di profondità in un mix di terreno ben drenante. Mantenere il terreno umido ma non inzuppato."
+      },
+      "step3": {
+        "title": "Germinazione",
+        "description": "Posizionare in un luogo caldo (21-29°C). I semi dovrebbero germinare in 7-14 giorni. Mantenere il terreno costantemente umido."
+      },
+      "step4": {
+        "title": "Cura delle Piantine",
+        "description": "Una volta germogliate, fornire luce indiretta brillante. Annaffiare quando il pollice superiore del terreno è asciutto."
+      },
+      "step5": {
+        "title": "Trapianto",
+        "description": "Quando le piantine hanno 2-3 serie di foglie vere, trapiantare in vasi più grandi con terreno ricco e ben drenante."
+      },
+      "step6": {
+        "title": "Cura Matura",
+        "description": "Fornire pieno sole (6+ ore al giorno), annaffiare regolarmente e fertilizzare mensilmente durante la stagione di crescita."
+      }
+    },
+    "startButton": "Inizia ora",
+    "moreComingSoon": "Altre piante in arrivo..."
   }
 }

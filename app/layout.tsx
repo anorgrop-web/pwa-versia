@@ -5,6 +5,7 @@ import { GeistMono } from "geist/font/mono"
 import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import { I18nProvider } from "@/components/i18n-provider"
+import { AutoLogoutProvider } from "@/components/auto-logout-provider"
 import "./globals.css"
 
 export const metadata: Metadata = {
@@ -42,7 +43,9 @@ export default function RootLayout({
       </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} antialiased`}>
         <I18nProvider>
-          <Suspense fallback={null}>{children}</Suspense>
+          <AutoLogoutProvider idleTimeout={15 * 60 * 1000} warningTime={60 * 1000}>
+            <Suspense fallback={null}>{children}</Suspense>
+          </AutoLogoutProvider>
         </I18nProvider>
         <Analytics />
       </body>

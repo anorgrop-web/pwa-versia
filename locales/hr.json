@@ -8,6 +8,7 @@
     "title": "Izbornik",
     "subscriptions": "Pretplate",
     "coupons": "Kuponi za Popust",
+    "plantingArea": "Područje Sadnje",
     "tutorials": "Tutorijali",
     "trackOrders": "Praćenje Narudžbi",
     "contact": "Kontakt"
@@ -62,6 +63,63 @@
       "userEmail": "korisnik@primjer.com"
     },
     "policiesLink": "Uvjeti Korištenja i Pravila Privatnosti"
+  },
+  "coupons": {
+    "title": "Kuponi za Popust",
+    "revealButton": "Otkrij Kupon",
+    "copyButton": "Kopiraj",
+    "copiedButton": "Kopirano!",
+    "goToWebsite": "Idi na Web Stranicu",
+    "redeemTitle": "Iskoristite svoje kupone i uživajte u popustima na našoj web stranici",
+    "howToUse": "Kako koristiti svoje kupone",
+    "step1": "Kliknite na otkrij kupon",
+    "step2": "Kliknite na kopiraj, da kopirate kupon",
+    "step3": "Kliknite na 'Idi na Web Stranicu'",
+    "step4": "Odaberite proizvode za kupnju",
+    "step5": "Koristite kupon pri plaćanju i uživajte u kupnji s popustom",
+    "GARDEN10": {
+      "description": "Dobijte 10% popusta na bilo koju kupovinu u našoj aplikaciji."
+    },
+    "OCT5": {
+      "description": "Listopadska posebna ponuda! Koristite ovaj kupon za 5% popusta na sjeme."
+    }
+  },
+  "plantingArea": {
+    "title": "Područje Sadnje",
+    "description": "Naučite klijati i uzgajati svoje omiljene biljke s vodičima korak po korak",
+    "hibiscus": {
+      "description": "Naučite kako klijati i uzgajati svoje hibiskuse zdravo s ovim vodičem korak po korak"
+    },
+    "hibiscusTutorial": {
+      "title": "Vodič za Uzgoj Hibiskusa",
+      "subtitle": "Potpuni vodič korak po korak za klijanje i uzgoj zdravih hibiskusa",
+      "step1": {
+        "title": "Priprema Sjemena",
+        "description": "Namočite sjeme hibiskusa u toploj vodi 24 sata kako biste omekšali tvrdu vanjsku ljusku i poboljšali stopu klijanja."
+      },
+      "step2": {
+        "title": "Sadnja",
+        "description": "Posadite sjeme 1/4 inča duboko u dobro dreniranu mješavinu tla. Održavajte tlo vlažnim, ali ne prekomjerno natopljenim."
+      },
+      "step3": {
+        "title": "Klijanje",
+        "description": "Postavite na toplo mjesto (21-29°C). Sjeme bi trebalo proklijati za 7-14 dana. Održavajte tlo stalno vlažnim."
+      },
+      "step4": {
+        "title": "Briga o Sadnicama",
+        "description": "Jednom kada proklijaju, osigurajte svijetlu neizravnu svjetlost. Zalijevajte kada je gornji inč tla suh."
+      },
+      "step5": {
+        "title": "Presađivanje",
+        "description": "Kada sadnice imaju 2-3 seta pravih listova, presadite u veće posude s bogatim, dobro dreniranim tlom."
+      },
+      "step6": {
+        "title": "Zrela Briga",
+        "description": "Osigurajte puno sunce (6+ sati dnevno), redovito zalijevajte i gnojite mjesečno tijekom sezone rasta."
+      }
+    },
+    "startButton": "Počnite sada",
+    "moreComingSoon": "Više biljaka uskoro..."
   },
   "languages": {
     "en": "English",
@@ -142,5 +200,29 @@
     "contactTitle": "4. Kontakt",
     "contactText": "Ako imate pitanja o ovim pravilima, kontaktirajte nas putem e-maila:",
     "companyName": "Odgovorna Tvrtka:"
+  },
+  "recurrence": {
+    "title": "Upravljanje Ponavljanjima",
+    "description": "Upravljajte svojim pretplatama i ponavljajućim isporukama",
+    "noRecurrences": "Nemate aktivnih ponavljanja",
+    "noRecurrencesDescription": "Kada se pretplatite na ponavljajuće isporuke, pojavit će se ovdje.",
+    "active": "Aktivno",
+    "paused": "Pauzirano",
+    "cancelled": "Otkazano",
+    "frequency": "Učestalost",
+    "nextDelivery": "Sljedeća Isporuka",
+    "startDate": "Datum Početka",
+    "status": "Status",
+    "actions": "Akcije",
+    "pause": "Pauziraj",
+    "resume": "Nastavi",
+    "cancel": "Otkaži",
+    "edit": "Uredi",
+    "confirmCancel": "Jeste li sigurni da želite otkazati ovo ponavljanje?",
+    "confirmPause": "Jeste li sigurni da želite pauzirati ovo ponavljanje?",
+    "weekly": "Tjedno",
+    "biweekly": "Dvotjedno",
+    "monthly": "Mjesečno",
+    "quarterly": "Tromjesečno"
   }
 }

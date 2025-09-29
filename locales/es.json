@@ -8,6 +8,7 @@
     "title": "Menú",
     "subscriptions": "Suscripciones",
     "coupons": "Cupones de Descuento",
+    "plantingArea": "Área de Plantación",
     "tutorials": "Tutoriales",
     "trackOrders": "Seguir Pedidos",
     "contact": "Contacto"
@@ -62,6 +63,63 @@
       "userEmail": "usuario@ejemplo.com"
     },
     "policiesLink": "Términos de Uso y Política de Privacidad"
+  },
+  "coupons": {
+    "title": "Cupones de Descuento",
+    "revealButton": "Revelar Cupón",
+    "copyButton": "Copiar",
+    "copiedButton": "¡Copiado!",
+    "goToWebsite": "Ir al Sitio",
+    "redeemTitle": "Canjea tus cupones y aprovecha los descuentos en nuestro sitio",
+    "howToUse": "Cómo usar tus cupones",
+    "step1": "Haz clic en revelar cupón",
+    "step2": "Haz clic en copiar, para copiar el cupón",
+    "step3": "Haz clic en 'Ir al Sitio'",
+    "step4": "Elige los productos a comprar",
+    "step5": "Utiliza el cupón en el checkout y disfruta de tu compra con descuento",
+    "GARDEN10": {
+      "description": "Obtén 10% de descuento en cualquier compra en nuestra app."
+    },
+    "OCT5": {
+      "description": "¡Oferta especial de Octubre! Usa este cupón para 5% de descuento en semillas."
+    }
+  },
+  "plantingArea": {
+    "title": "Área de Plantación",
+    "description": "Aprende a germinar y cultivar tus plantas favoritas con guías paso a paso",
+    "hibiscus": {
+      "description": "Aprende cómo germinar y cultivar tus hibiscus saludablemente con esta guía paso a paso"
+    },
+    "hibiscusTutorial": {
+      "title": "Guía de Cultivo de Hibisco",
+      "subtitle": "Guía completa paso a paso para germinar y cultivar hibiscos saludables",
+      "step1": {
+        "title": "Preparación de Semillas",
+        "description": "Remoja las semillas de hibisco en agua tibia durante 24 horas para ablandar la cáscara exterior dura y mejorar las tasas de germinación."
+      },
+      "step2": {
+        "title": "Plantación",
+        "description": "Planta las semillas a 1/4 de pulgada de profundidad en una mezcla de tierra con buen drenaje. Mantén la tierra húmeda pero no encharcada."
+      },
+      "step3": {
+        "title": "Germinación",
+        "description": "Coloca en un lugar cálido (21-29°C). Las semillas deberían germinar en 7-14 días. Mantén la tierra constantemente húmeda."
+      },
+      "step4": {
+        "title": "Cuidado de Plántulas",
+        "description": "Una vez brotadas, proporciona luz indirecta brillante. Riega cuando la pulgada superior de tierra esté seca."
+      },
+      "step5": {
+        "title": "Trasplante",
+        "description": "Cuando las plántulas tengan 2-3 conjuntos de hojas verdaderas, trasplanta a macetas más grandes con tierra rica y bien drenada."
+      },
+      "step6": {
+        "title": "Cuidado Maduro",
+        "description": "Proporciona sol pleno (6+ horas diarias), riega regularmente y fertiliza mensualmente durante la temporada de crecimiento."
+      }
+    },
+    "startButton": "Comenzar ahora",
+    "moreComingSoon": "Más plantas próximamente..."
   },
   "languages": {
     "en": "English",
@@ -142,5 +200,29 @@
     "contactTitle": "4. Contacto",
     "contactText": "Si tienes alguna pregunta sobre estas políticas, contáctanos por correo electrónico:",
     "companyName": "Empresa Responsable:"
+  },
+  "recurrence": {
+    "title": "Gestión de Recurrencias",
+    "description": "Administra tus suscripciones y entregas recurrentes",
+    "noRecurrences": "No tienes recurrencias activas",
+    "noRecurrencesDescription": "Cuando te suscribas a entregas recurrentes, aparecerán aquí.",
+    "active": "Activa",
+    "paused": "Pausada",
+    "cancelled": "Cancelada",
+    "frequency": "Frecuencia",
+    "nextDelivery": "Próxima Entrega",
+    "startDate": "Fecha de Inicio",
+    "status": "Estado",
+    "actions": "Acciones",
+    "pause": "Pausar",
+    "resume": "Reanudar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "confirmCancel": "¿Estás seguro de que deseas cancelar esta recurrencia?",
+    "confirmPause": "¿Estás seguro de que deseas pausar esta recurrencia?",
+    "weekly": "Semanal",
+    "biweekly": "Quincenal",
+    "monthly": "Mensual",
+    "quarterly": "Trimestral"
   }
 }

@@ -8,6 +8,7 @@
     "title": "Menu",
     "subscriptions": "Abonnements",
     "coupons": "Coupons de Réduction",
+    "plantingArea": "Zone de Plantation",
     "tutorials": "Tutoriels",
     "trackOrders": "Suivre les Commandes",
     "contact": "Contact"
@@ -62,6 +63,26 @@
       "userEmail": "utilisateur@exemple.com"
     },
     "policiesLink": "Conditions d'Utilisation et Politique de Confidentialité"
+  },
+  "coupons": {
+    "title": "Coupons de Réduction",
+    "revealButton": "Révéler le Coupon",
+    "copyButton": "Copier",
+    "copiedButton": "Copié !",
+    "goToWebsite": "Aller au Site",
+    "redeemTitle": "Échangez vos coupons et profitez des réductions sur notre site",
+    "howToUse": "Comment utiliser vos coupons",
+    "step1": "Cliquez sur révéler le coupon",
+    "step2": "Cliquez sur copier, pour copier le coupon",
+    "step3": "Cliquez sur 'Aller au Site'",
+    "step4": "Choisissez les produits à acheter",
+    "step5": "Utilisez le coupon lors du paiement et profitez de votre achat avec réduction",
+    "GARDEN10": {
+      "description": "Obtenez 10% de réduction sur tout achat dans notre app."
+    },
+    "OCT5": {
+      "description": "Offre spéciale d'Octobre ! Utilisez ce coupon pour 5% de réduction sur les graines."
+    }
   },
   "auth": {
     "loginTitle": "Bon retour !",
@@ -142,5 +163,66 @@
     "contactTitle": "4. Contact",
     "contactText": "Si vous avez des questions sur ces politiques, contactez-nous par e-mail :",
     "companyName": "Entreprise Responsable :"
+  },
+  "recurrence": {
+    "title": "Gestion des Récurrences",
+    "description": "Gérez vos abonnements et livraisons récurrentes",
+    "noRecurrences": "Vous n'avez pas de récurrences actives",
+    "noRecurrencesDescription": "Lorsque vous vous abonnez à des livraisons récurrentes, elles apparaîtront ici.",
+    "active": "Active",
+    "paused": "En Pause",
+    "cancelled": "Annulée",
+    "frequency": "Fréquence",
+    "nextDelivery": "Prochaine Livraison",
+    "startDate": "Date de Début",
+    "status": "Statut",
+    "actions": "Actions",
+    "pause": "Mettre en Pause",
+    "resume": "Reprendre",
+    "cancel": "Annuler",
+    "edit": "Modifier",
+    "confirmCancel": "Êtes-vous sûr de vouloir annuler cette récurrence ?",
+    "confirmPause": "Êtes-vous sûr de vouloir mettre en pause cette récurrence ?",
+    "weekly": "Hebdomadaire",
+    "biweekly": "Bihebdomadaire",
+    "monthly": "Mensuel",
+    "quarterly": "Trimestriel"
+  },
+  "plantingArea": {
+    "title": "Zone de Plantation",
+    "description": "Apprenez à faire germer et cultiver vos plantes préférées avec des guides étape par étape",
+    "hibiscus": {
+      "description": "Apprenez comment faire germer et cultiver vos hibiscus sainement avec ce guide étape par étape"
+    },
+    "hibiscusTutorial": {
+      "title": "Guide de Culture de l'Hibiscus",
+      "subtitle": "Guide complet étape par étape pour faire germer et cultiver des hibiscus sains",
+      "step1": {
+        "title": "Préparation des Graines",
+        "description": "Faites tremper les graines d'hibiscus dans de l'eau tiède pendant 24 heures pour ramollir la coque extérieure dure et améliorer les taux de germination."
+      },
+      "step2": {
+        "title": "Plantation",
+        "description": "Plantez les graines à 1/4 de pouce de profondeur dans un mélange de terre bien drainant. Gardez le sol humide mais pas détrempé."
+      },
+      "step3": {
+        "title": "Germination",
+        "description": "Placez dans un endroit chaud (21-29°C). Les graines devraient germer en 7-14 jours. Gardez le sol constamment humide."
+      },
+      "step4": {
+        "title": "Soins des Semis",
+        "description": "Une fois germés, fournissez une lumière indirecte vive. Arrosez lorsque le pouce supérieur du sol est sec."
+      },
+      "step5": {
+        "title": "Repiquage",
+        "description": "Lorsque les semis ont 2-3 ensembles de vraies feuilles, transplantez dans des pots plus grands avec un sol riche et bien drainant."
+      },
+      "step6": {
+        "title": "Soins Matures",
+        "description": "Fournissez le plein soleil (6+ heures par jour), arrosez régulièrement et fertilisez mensuellement pendant la saison de croissance."
+      }
+    },
+    "startButton": "Commencer maintenant",
+    "moreComingSoon": "Plus de plantes bientôt..."
   }
 }

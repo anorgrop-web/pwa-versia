@@ -8,6 +8,7 @@
     "title": "Menu",
     "subscriptions": "Subskrypcje",
     "coupons": "Kupony Rabatowe",
+    "plantingArea": "Obszar Sadzenia",
     "tutorials": "Samouczki",
     "trackOrders": "Śledź Zamówienia",
     "contact": "Kontakt"
@@ -62,6 +63,63 @@
       "userEmail": "uzytkownik@przyklad.com"
     },
     "policiesLink": "Warunki Użytkowania i Polityka Prywatności"
+  },
+  "coupons": {
+    "title": "Kupony Rabatowe",
+    "revealButton": "Odsłoń Kupon",
+    "copyButton": "Kopiuj",
+    "copiedButton": "Skopiowano!",
+    "goToWebsite": "Przejdź do Strony",
+    "redeemTitle": "Wykorzystaj swoje kupony i skorzystaj z rabatów na naszej stronie",
+    "howToUse": "Jak używać swoich kuponów",
+    "step1": "Kliknij odsłoń kupon",
+    "step2": "Kliknij kopiuj, aby skopiować kupon",
+    "step3": "Kliknij 'Przejdź do Strony'",
+    "step4": "Wybierz produkty do zakupu",
+    "step5": "Użyj kuponu przy kasie i ciesz się zakupem z rabatem",
+    "GARDEN10": {
+      "description": "Otrzymaj 10% zniżki na każdy zakup w naszej aplikacji."
+    },
+    "OCT5": {
+      "description": "Październikowa oferta specjalna! Użyj tego kuponu na 5% zniżki na nasiona."
+    }
+  },
+  "plantingArea": {
+    "title": "Obszar Sadzenia",
+    "description": "Naucz się kiełkować i uprawiać swoje ulubione rośliny z przewodnikami krok po kroku",
+    "hibiscus": {
+      "description": "Naucz się, jak zdrowo kiełkować i uprawiać swoje hibiskusy dzięki temu przewodnikowi krok po kroku"
+    },
+    "hibiscusTutorial": {
+      "title": "Przewodnik Uprawy Hibiskusa",
+      "subtitle": "Kompletny przewodnik krok po kroku do kiełkowania i uprawy zdrowych hibiskusów",
+      "step1": {
+        "title": "Przygotowanie Nasion",
+        "description": "Namocz nasiona hibiskusa w ciepłej wodzie na 24 godziny, aby zmiękczyć twardą zewnętrzną łupinę i poprawić wskaźniki kiełkowania."
+      },
+      "step2": {
+        "title": "Sadzenie",
+        "description": "Posadź nasiona na głębokość 1/4 cala w dobrze drenującej mieszance gleby. Utrzymuj glebę wilgotną, ale nie przemoczoną."
+      },
+      "step3": {
+        "title": "Kiełkowanie",
+        "description": "Umieść w ciepłym miejscu (21-29°C). Nasiona powinny wykiełkować w ciągu 7-14 dni. Utrzymuj glebę stale wilgotną."
+      },
+      "step4": {
+        "title": "Opieka nad Sadzonkami",
+        "description": "Po wykiełkowaniu zapewnij jasne światło pośrednie. Podlewaj, gdy górny cal gleby jest suchy."
+      },
+      "step5": {
+        "title": "Przesadzanie",
+        "description": "Gdy sadzonki mają 2-3 zestawy prawdziwych liści, przesadź do większych doniczek z bogatą, dobrze drenującą glebą."
+      },
+      "step6": {
+        "title": "Dojrzała Opieka",
+        "description": "Zapewnij pełne słońce (6+ godzin dziennie), regularnie podlewaj i nawozuj miesięcznie podczas sezonu wzrostu."
+      }
+    },
+    "startButton": "Zacznij teraz",
+    "moreComingSoon": "Więcej roślin wkrótce..."
   },
   "languages": {
     "en": "English",
@@ -142,5 +200,29 @@
     "contactTitle": "4. Kontakt",
     "contactText": "Jeśli masz pytania dotyczące tych polityk, skontaktuj się z nami przez e-mail:",
     "companyName": "Odpowiedzialna Firma:"
+  },
+  "recurrence": {
+    "title": "Zarządzanie Cyklicznością",
+    "description": "Zarządzaj swoimi subskrypcjami i cyklicznymi dostawami",
+    "noRecurrences": "Nie masz aktywnych cyklicznych dostaw",
+    "noRecurrencesDescription": "Gdy zapiszesz się na cykliczne dostawy, pojawią się tutaj.",
+    "active": "Aktywna",
+    "paused": "Wstrzymana",
+    "cancelled": "Anulowana",
+    "frequency": "Częstotliwość",
+    "nextDelivery": "Następna Dostawa",
+    "startDate": "Data Rozpoczęcia",
+    "status": "Status",
+    "actions": "Akcje",
+    "pause": "Wstrzymaj",
+    "resume": "Wznów",
+    "cancel": "Anuluj",
+    "edit": "Edytuj",
+    "confirmCancel": "Czy na pewno chcesz anulować tę cykliczną dostawę?",
+    "confirmPause": "Czy na pewno chcesz wstrzymać tę cykliczną dostawę?",
+    "weekly": "Tygodniowo",
+    "biweekly": "Co Dwa Tygodnie",
+    "monthly": "Miesięcznie",
+    "quarterly": "Kwartalnie"
   }
 }

@@ -8,6 +8,7 @@
     "title": "Menü",
     "subscriptions": "Abonnements",
     "coupons": "Rabattgutscheine",
+    "plantingArea": "Pflanzbereich",
     "tutorials": "Tutorials",
     "trackOrders": "Bestellungen verfolgen",
     "contact": "Kontakt"
@@ -62,6 +63,63 @@
       "userEmail": "benutzer@beispiel.com"
     },
     "policiesLink": "Nutzungsbedingungen und Datenschutzrichtlinie"
+  },
+  "coupons": {
+    "title": "Rabattgutscheine",
+    "revealButton": "Gutschein Enthüllen",
+    "copyButton": "Kopieren",
+    "copiedButton": "Kopiert!",
+    "goToWebsite": "Zur Website",
+    "redeemTitle": "Lösen Sie Ihre Gutscheine ein und profitieren Sie von Rabatten auf unserer Website",
+    "howToUse": "So verwenden Sie Ihre Gutscheine",
+    "step1": "Klicken Sie auf Gutschein enthüllen",
+    "step2": "Klicken Sie auf Kopieren, um den Gutschein zu kopieren",
+    "step3": "Klicken Sie auf 'Zur Website'",
+    "step4": "Wählen Sie die zu kaufenden Produkte aus",
+    "step5": "Verwenden Sie den Gutschein beim Checkout und genießen Sie Ihren Einkauf mit Rabatt",
+    "GARDEN10": {
+      "description": "Erhalten Sie 10% Rabatt auf jeden Kauf in unserer App."
+    },
+    "OCT5": {
+      "description": "Oktober-Sonderangebot! Verwenden Sie diesen Gutschein für 5% Rabatt auf Samen."
+    }
+  },
+  "plantingArea": {
+    "title": "Pflanzbereich",
+    "description": "Lernen Sie, Ihre Lieblingspflanzen mit Schritt-für-Schritt-Anleitungen zu keimen und zu züchten",
+    "hibiscus": {
+      "description": "Lernen Sie, wie Sie Ihren Hibiskus gesund keimen und züchten mit dieser geführten Schritt-für-Schritt-Anleitung"
+    },
+    "hibiscusTutorial": {
+      "title": "Hibiskus-Anbauanleitung",
+      "subtitle": "Vollständige Schritt-für-Schritt-Anleitung zum Keimen und Züchten gesunder Hibiskuspflanzen",
+      "step1": {
+        "title": "Samenvorbereitung",
+        "description": "Weichen Sie Hibiskussamen 24 Stunden lang in warmem Wasser ein, um die harte äußere Schale zu erweichen und die Keimraten zu verbessern."
+      },
+      "step2": {
+        "title": "Pflanzen",
+        "description": "Pflanzen Sie Samen 1/4 Zoll tief in gut durchlässige Erdmischung. Halten Sie die Erde feucht, aber nicht durchnässt."
+      },
+      "step3": {
+        "title": "Keimung",
+        "description": "An einem warmen Ort platzieren (21-29°C). Samen sollten in 7-14 Tagen keimen. Halten Sie die Erde gleichmäßig feucht."
+      },
+      "step4": {
+        "title": "Sämlingspflege",
+        "description": "Sobald gekeimt, helles indirektes Licht bereitstellen. Gießen, wenn der obere Zentimeter der Erde trocken ist."
+      },
+      "step5": {
+        "title": "Umpflanzen",
+        "description": "Wenn Sämlinge 2-3 Sätze echter Blätter haben, in größere Töpfe mit reichhaltiger, gut durchlässiger Erde umpflanzen."
+      },
+      "step6": {
+        "title": "Reife Pflege",
+        "description": "Volle Sonne bereitstellen (6+ Stunden täglich), regelmäßig gießen und während der Wachstumsperiode monatlich düngen."
+      }
+    },
+    "startButton": "Jetzt beginnen",
+    "moreComingSoon": "Weitere Pflanzen folgen bald..."
   },
   "languages": {
     "en": "English",
@@ -142,5 +200,29 @@
     "contactTitle": "4. Kontakt",
     "contactText": "Wenn Sie Fragen zu diesen Richtlinien haben, kontaktieren Sie uns bitte per E-Mail:",
     "companyName": "Verantwortliches Unternehmen:"
+  },
+  "recurrence": {
+    "title": "Wiederholungsverwaltung",
+    "description": "Verwalten Sie Ihre Abonnements und wiederkehrenden Lieferungen",
+    "noRecurrences": "Sie haben keine aktiven Wiederholungen",
+    "noRecurrencesDescription": "Wenn Sie wiederkehrende Lieferungen abonnieren, werden sie hier angezeigt.",
+    "active": "Aktiv",
+    "paused": "Pausiert",
+    "cancelled": "Storniert",
+    "frequency": "Häufigkeit",
+    "nextDelivery": "Nächste Lieferung",
+    "startDate": "Startdatum",
+    "status": "Status",
+    "actions": "Aktionen",
+    "pause": "Pausieren",
+    "resume": "Fortsetzen",
+    "cancel": "Stornieren",
+    "edit": "Bearbeiten",
+    "confirmCancel": "Sind Sie sicher, dass Sie diese Wiederholung stornieren möchten?",
+    "confirmPause": "Sind Sie sicher, dass Sie diese Wiederholung pausieren möchten?",
+    "weekly": "Wöchentlich",
+    "biweekly": "Zweiwöchentlich",
+    "monthly": "Monatlich",
+    "quarterly": "Vierteljährlich"
   }
 }

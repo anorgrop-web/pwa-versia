@@ -2,12 +2,14 @@
   "nav": {
     "home": "Início",
     "guide": "Guia de Plantio",
-    "community": "Comunidade"
+    "community": "Comunidade",
+    "recurrence": "Recorrência"
   },
   "menu": {
     "title": "Menu",
     "subscriptions": "Recorrência",
     "coupons": "Cupons de Desconto",
+    "plantingArea": "Área de Plantio",
     "tutorials": "Tutoriais",
     "trackOrders": "Acompanhar Pedidos",
     "contact": "Contato"
@@ -78,6 +80,152 @@
       "userEmail": "email@exemplo.com"
     }
   },
+  "coupons": {
+    "title": "Cupons de Desconto",
+    "instructionTitle": "Resgate os seus cupons e aproveite os descontos em nosso site",
+    "step1": "Passo 1: Clique em revelar cupom;",
+    "step2": "Passo 2: Clique em copiar, para copiar o cupom;",
+    "step3": "Passo 3: Clique em 'Ir para o site';",
+    "step4": "Passo 4: Escolha os produtos a serem comprados;",
+    "step5": "Passo 5: Utilize o cupom no checkout e aproveite a sua compra com desconto.",
+    "revealButton": "Revelar Cupom",
+    "copyButton": "Copiar",
+    "copiedButton": "Copiado!",
+    "GARDEN10": {
+      "description": "Ganhe 10% de desconto em qualquer compra no nosso app."
+    },
+    "OCT5": {
+      "description": "Oferta especial de Outubro! Use este cupom para 5% de desconto em sementes."
+    }
+  },
+  "recurrence": {
+    "title": "Recorrência",
+    "pageTitle": "Escolha seu produto do mês",
+    "backButton": "Voltar",
+    "redeemButton": "Resgatar",
+    "redeemedButton": "Resgatado!",
+    "goToWebsite": "Ir para o site",
+    "products": {
+      "product1": {
+        "title": "Sementes Orgânicas",
+        "description": "Coleção premium de sementes orgânicas selecionadas para o cultivo do mês. Perfeitas para iniciar seu jardim."
+      },
+      "product2": {
+        "title": "Fertilizante Premium",
+        "description": "Fertilizante orgânico de alta qualidade para nutrir suas plantas e garantir um crescimento saudável."
+      },
+      "product3": {
+        "title": "Kit de Ferramentas",
+        "description": "Conjunto essencial de ferramentas de jardinagem para facilitar o cuidado com suas plantas."
+      }
+    }
+  },
+  "plantingArea": {
+    "title": "Área de Plantio",
+    "description": "Aprenda a germinar e cultivar suas plantas favoritas com guias passo a passo",
+    "hibiscus": {
+      "description": "Aprenda como germinar e crescer seus hibiscus com saúde nesse passo a passo guiado"
+    },
+    "startButton": "Começar agora",
+    "moreComingSoon": "Mais plantas em breve..."
+  },
+  "hibiscus": {
+    "title": "Hibiscus rosa-sinensis - Programa de 21 Dias",
+    "description": "Siga este guia passo a passo para germinar e cultivar seu hibiscus com sucesso",
+    "day": "Dia",
+    "progress": "Progresso",
+    "daysCompleted": "dias completados",
+    "markComplete": "Marcar como completado",
+    "markIncomplete": "Desmarcar como completado",
+    "previousDay": "Dia anterior",
+    "nextDay": "Próximo dia",
+    "days": {
+      "1": {
+        "title": "Dia 1: A Preparação do Ninho",
+        "content": "Hoje não plantamos, nós preparamos o berçário perfeito para nossas sementes. Pense neste dia como arrumar o quarto para um bebê que está para chegar. Cada detalhe importa para garantir que elas se sintam seguras e confortáveis para despertar.\n\nSua Missão de Hoje: Reunir e entender cada um dos seus materiais.\n\nO Recipiente: Bandeja Germinadora ou Copinho?\n\nBandeja Germinadora: Pense nela como um condomínio de luxo para sementes. Cada semente tem sua própria \"casa\" (célula), com drenagem ideal e espaço para crescer sem competir com as outras. A tampa que geralmente a acompanha cria um efeito estufa perfeito. É a escolha profissional para maximizar a germinação.\n\nCopinhos de Plástico (ou potes de iogurte): Esta é a solução \"faça você mesmo\", e funciona muito bem! É como criar várias casinhas individuais. O mais importante: faça de 2 a 3 pequenos furos no fundo de cada copo. Sem isso, a água acumula e as raízes da sua futura plantinha podem apodrecer antes mesmo de crescer.\n\nO Substrato: A Cama das Sementes\n\nPor que um substrato especial? As raízes de um bebê-planta são incrivelmente delicadas. Elas não têm força para empurrar terra de jardim, que é pesada e compacta. Precisamos de um \"colchão\" fofo, aerado e que retenha umidade na medida certa.\n\nO que usar? Procure em lojas de jardinagem por \"Substrato para Mudas\" ou \"Terra Leve\". Eles já vêm prontos. Se quiser montar o seu, uma ótima mistura é: 2 partes de turfa, 1 parte de vermiculita (ou perlita) e 1 parte de húmus de minhoca.\n\nÁgua e o Borrifador: O Carinho da Hidratação\n\nPor que um borrifador? Imagine jogar um balde de água em um berço. Você não faria isso, certo? Um regador faria a mesma coisa com suas sementes: deslocaria elas do lugar e bagunçaria o substrato. O borrifador simula uma névoa suave, um carinho que umedece a terra sem perturbar as sementes que estão prestes a dormir.\n\nA Cobertura: O Abraço Quentinho\n\nVocê vai precisar de plástico filme (aquele de cozinha) ou uma tampa transparente. Isso servirá para criar um ambiente de mini-estufa. Pense nisso como um cobertor que mantém o calor e a umidade dentro, criando o clima tropical que o hibiscus adora.\n\nCuriosidade do Dia: O Hibiscus rosa-sinensis é nativo das regiões tropicais da Ásia, especialmente da China. Por isso, ele adora calor e umidade. Ao criar esse ambiente controlado, você está, na verdade, recriando as condições das florestas tropicais onde seus ancestrais nasceram há milhões de anos!"
+      },
+      "2": {
+        "title": "Dia 2: Acordando as Sementes com um Segredo Ancestral",
+        "content": "As sementes são como cápsulas do tempo, guardando a vida em estado de dormência. A casca dura é uma armadura que as protege durante longas viagens, seja pelo vento, água ou no estômago de um pássaro. Nossa missão hoje é sussurrar para essa armadura que ela já pode relaxar, pois chegou a um lugar seguro.\n\nSua Missão de Hoje: Escarificar e hidratar as sementes.\n\nEscarificação: A Chave que Abre a Porta\n\nO que é? É o ato de desgastar levemente a casca da semente. Pense nisso como lixar a tinta de uma porta antes de passar o verniz. Esse pequeno desgaste cria microfissuras que permitem que a água penetre e dê o sinal de \"hora de acordar\" para o embrião lá dentro.\n\nComo Fazer: Pegue uma lixa de unha (não precisa ser nova) e passe a semente sobre ela algumas vezes, gentilmente. Não precisa de força! O objetivo é apenas remover o brilho de uma pequena parte da casca.\n\nHidratação: O Primeiro Banho de Vida\n\nO que fazer: Após a escarificação, coloque as sementes em um copo com água morna (não quente!). Uma temperatura agradável ao toque é perfeita. Deixe-as de molho por cerca de 12 a 24 horas.\n\nO que esperar: Você verá que as sementes que foram bem escarificadas irão inchar, às vezes até dobrando de tamanho. Isso é um sinal maravilhoso! Significa que a água venceu a armadura e o processo de germinação começou internamente.\n\nCuriosidade do Dia: No Havaí, o hibisco (chamado de \"Pua Aloalo\") é a flor do estado. As mulheres tradicionalmente usam uma flor de hibisco no cabelo – atrás da orelha direita se estão disponíveis para um relacionamento, e atrás da esquerda se são comprometidas. A flor dura apenas um ou dois dias, um lembrete da beleza delicada e passageira da vida."
+      },
+      "3": {
+        "title": "Dia 3: O Plantio e a Promessa de Vida",
+        "content": "Hoje é o grande dia! As sementes foram preparadas e o berçário está pronto. Agora, vamos uni-los. O ato de plantar é um ato de fé e esperança. Estamos confiando uma vida minúscula à terra, com a promessa de que cuidaremos dela.\n\nSua Missão de Hoje: Semear suas sementes de hibisco.\n\nPrepare a Cama: Pegue sua bandeja ou copinhos e preencha com o substrato que você separou no Dia 1. Não compacte a terra! Apenas preencha e nivele suavemente com os dedos.\n\nUmedeça o Substrato: Com seu borrifador, dê uma boa umedecida em todo o substrato. Ele deve ficar úmido como uma esponja torcida, não pingando. É mais fácil umedecer bem agora do que depois de plantar.\n\nSemeando com Cuidado:\n\nFaça um pequeno buraco no centro de cada célula ou copo, com cerca de 0,5 cm de profundidade. Uma boa dica é usar a ponta de um lápis ou a ponta do seu dedo.\n\nRetire as sementes da água e coloque uma em cada buraco.\n\nCubra a semente com uma fina camada de substrato, sem pressionar. Ela só precisa ficar no escurinho para começar.\n\nA Primeira Bênção: Dê uma última borrifada de água por cima de tudo. Isso ajuda a assentar a terra ao redor da semente, eliminando bolsões de ar e garantindo um bom contato.\n\nCuriosidade do Dia: O nome \"Hibiscus\" foi dado pelo médico e botânico grego Dioscórides, no primeiro século d.C. Ele provavelmente se referia a uma planta diferente, mas o nome pegou. A parte \"rosa-sinensis\" significa, literalmente, \"rosa da China\", nome dado pelo botânico Carl Linnaeus no século 18, consolidando a crença de sua origem asiática."
+      },
+      "4": {
+        "title": "Dia 4: Construindo a Cúpula Tropical",
+        "content": "Hoje, transformaremos nosso simples recipiente em uma biosfera particular. A semente do hibisco guarda na sua memória genética o clima das suas origens: quente, úmido e abafado. Nossa missão é recriar esse paraíso tropical em miniatura.\n\nSua Missão de Hoje: Selar o recipiente para criar um efeito estufa.\n\nA Cobertura: Pegue o plástico filme ou a tampa transparente que você separou no Dia 1.\n\nSelando com Cuidado: Cubra a boca da sua bandeja germinadora ou dos seus copinhos. O objetivo é criar uma barreira que impeça a umidade de escapar. O vapor da água que evaporar do substrato ficará preso, condensará na superfície do plástico e voltará para a terra, criando um ciclo de umidade constante.\n\nPor que isso funciona? Este ambiente simula a camada de folhas e serrapilheira de uma floresta tropical, que mantém o solo úmido e aquecido. É o sinal definitivo para a semente, dizendo: \"O ambiente está estável e seguro, pode germinar sem medo\".\n\nCuriosidade do Dia: O chá de hibisco, famoso mundialmente, não é feito das flores do Hibiscus rosa-sinensis que estamos a plantar! Ele é feito dos cálices de outra variedade, a Hibiscus sabdariffa (conhecida como vinagreira ou rosela). As flores que teremos são puramente ornamentais, mas igualmente espetaculares."
+      },
+      "5": {
+        "title": "Dia 5: A Caça ao Cantinho Aconchegante",
+        "content": "A localização do seu berçário é um dos fatores mais críticos para o sucesso. Nesta fase, a semente não precisa de sol forte. Na verdade, sol direto poderia sobreaquecer a sua miniestufa e \"cozinhar\" as sementes. O que ela precisa é de calor consistente.\n\nSua Missão de Hoje: Encontrar o local ideal dentro do seu apartamento.\n\nPense em Calor, Não em Luz Direta: Onde bate aquele solzinho da manhã que deixa o ambiente morno? Perto de uma janela que recebe o sol da manhã é ótimo, mas posicione os recipientes de forma que a luz seja indireta.\n\nFontes de Calor Alternativas: Um local surpreendentemente eficaz é em cima do seu frigorífico! O motor gera um calor subtil e constante que sobe, aquecendo a base da sua bandeja. Outras opções são perto de aparelhos eletrónicos que se mantêm ligados (como um router de internet).\n\nEvite: Parapeitos de janelas que recebem o sol forte da tarde e locais com correntes de ar frio (perto de portas ou ar condicionado).\n\nCuriosidade do Dia: As flores do hibisco são hermafroditas, o que significa que cada flor possui tanto os órgãos reprodutores masculinos (estames, que produzem o pólen) quanto os femininos (o pistilo, que recebe o pólen). Essa estrutura longa e proeminente no centro da flor é o que a torna tão única e é uma pista sobre a sua fascinante biologia reprodutiva."
+      },
+      "6": {
+        "title": "Dia 6: O Guardião da Umidade",
+        "content": "A sua missão de hoje parece simples: verificar a umidade. Mas o que estamos realmente a fazer é garantir o equilíbrio hídrico perfeito. A semente precisa de água para ativar os seus processos internos, mas o excesso de água pode \"afogá-la\", privando-a do oxigénio necessário para respirar e decompondo a sua casca protetora cedo demais.\n\nSua Missão de Hoje: Manter o substrato como uma floresta húmida, não um pântano.\n\nO Ritual Diário: Levante a sua cobertura (plástico filme ou tampa) e sinta o substrato com a ponta do dedo. É o nosso termómetro de umidade. A terra deve colar-se levemente ao seu dedo.\n\nA Arte do Borrifador: Se sentir o topo a secar, use o borrifador. Dê 2 a 3 borrifadelas, o suficiente para reumedecer a camada superficial. A água vai descer lentamente. Lembre-se, a consistência é mais importante que a quantidade. É melhor borrifar um pouco todos os dias do que encharcar a terra uma vez por semana.\n\nFeche a Estufa: Recoloque a cobertura. O ciclo de umidade que criámos no Dia 4 continua a ser o nosso melhor aliado.\n\nCuriosidade do Dia: Sabia que as sementes de hibisco podem permanecer viáveis (capazes de germinar) por vários anos se armazenadas em condições secas e frescas? Elas entram num estado de dormência profunda, um mecanismo de sobrevivência incrível que lhes permite esperar pelas condições perfeitas para despertar. O que estamos a fazer agora é criar artificialmente essas \"condições perfeitas\"."
+      },
+      "7": {
+        "title": "Dia 7: A Virtude da Paciência",
+        "content": "Hoje, a nossa maior ferramenta de jardinagem é a paciência. É fácil ficar ansioso, querer espreitar debaixo da terra para ver se algo está a acontecer. Resista a essa tentação! O trabalho mais importante está a acontecer no escuro, no silêncio do substrato. A raiz primária, chamada radícula, está a romper a casca e a cravar-se na terra, procurando ancoragem e os primeiros nutrientes.\n\nSua Missão de Hoje: Confiar no processo e continuar a rotina.\n\nVerifique a Umidade: Faça o seu ritual diário de verificação. Borrife se necessário.\n\nExercite a Observação: Olhe para a superfície da terra. Não procure por um broto, mas familiarize-se com a aparência do substrato. Assim, qualquer mínima alteração, como uma pequena fissura na terra, será facilmente notada nos próximos dias.\n\nCanalize a Energia: Se sentir vontade de \"fazer algo\", use essa energia para pesquisar sobre os tipos de hibisco ou planear qual será o vaso definitivo para a sua muda.\n\nCuriosidade do Dia: O hibisco pertence à grande família das Malváceas, a mesma do algodão e do quiabo! Se olhar de perto para a flor do quiabo, vai notar uma semelhança surpreendente com a estrutura de um hibisco simples. É um lembrete de como as plantas, mesmo com aparências tão diferentes, podem ser \"primas\"."
+      },
+      "8": {
+        "title": "Dia 8: Olhos de Águia",
+        "content": "A partir de hoje, a nossa observação torna-se mais ativa. A germinação pode acontecer a qualquer momento! Algumas sementes são mais apressadas, outras mais cautelosas. O seu trabalho é ser o primeiro a dar as boas-vindas ao broto que surgir.\n\nSua Missão de Hoje: Procurar os primeiros sinais de vida.\n\nRotina de Umidade: Primeiro, o de sempre: verifique a umidade e borrife se necessário.\n\nO Que Procurar: Examine a superfície do substrato com atenção. O primeiro sinal não é uma folha, mas sim uma pequena \"alça\" ou \"cotovelo\" de cor verde-claro ou esbranquiçada a empurrar a terra. É o caule (hipocótilo) a surgir, curvado para proteger as frágeis folhas embrionárias. Ver isso é o seu sinal de vitória!\n\nNão se Preocupe se Não Vir Nada: É perfeitamente normal que nada tenha acontecido ainda. Cada semente tem o seu próprio relógio biológico. Continue a dar-lhe as condições ideais.\n\nCuriosidade do Dia: As flores de hibisco são famosas por serem de curta duração, muitas vezes abrindo pela manhã e murchando ao final da tarde do mesmo dia. Por isso, são um símbolo da beleza e da natureza efémera dos momentos preciosos da vida. Em algumas culturas, representam \"aproveitar o momento\"."
+      },
+      "9": {
+        "title": "Dia 9: A Importância do Aconchego",
+        "content": "Hoje, vamos focar-nos no segundo ingrediente secreto da germinação (o primeiro foi a umidade): o calor. As sementes de hibisco são como pequenos ovos que precisam de ser \"chocados\". A temperatura do solo funciona como um gatilho para as reações químicas dentro da semente.\n\nSua Missão de Hoje: Garantir que o berçário continue aquecido.\n\nVerifique a Umidade e o Calor: Faça a sua verificação de rotina. Sinta a temperatura do recipiente. Está morno ao toque? Ótimo. Se estiver frio, talvez precise de encontrar um local mais aquecido, como sugerido no Dia 5.\n\nPor que o Calor é Crucial? O calor acelera o metabolismo da semente. Ele dá a energia para que o embrião se expanda, quebre a casca e envie a sua primeira raiz para baixo e o seu primeiro caule para cima. Solos frios podem atrasar a germinação por semanas ou até mesmo causar o apodrecimento da semente.\n\nCuriosidade do Dia: Existem mais de 200 espécies de hibiscos espalhadas pelo mundo, desde arbustos tropicais gigantes a plantas herbáceas que sobrevivem em climas temperados. As suas flores vêm em quase todas as cores, exceto azul verdadeiro ou preto (flores com essas cores são geralmente tingidas ou criações digitais)."
+      },
+      "10": {
+        "title": "Dia 10: O Vigia Atento a Problemas",
+        "content": "Com um ambiente tão húmido e quente, estamos a criar as condições perfeitas não só para as nossas sementes, mas também para visitantes indesejados como fungos e mofo. Hoje, o nosso foco é a prevenção.\n\nSua Missão de Hoje: Inspecionar o berçário em busca de problemas.\n\nInspeção Visual: Ao verificar a umidade, procure por qualquer mancha que pareça um \"algodão\" branco ou esverdeado na superfície do substrato. Isso é mofo.\n\nO Que Fazer se Encontrar Mofo? Não entre em pânico.\n\nRetire a cobertura plástica por algumas horas para permitir que o ar circule e a superfície seque um pouco.\n\nSe for uma mancha pequena, pode tentar removê-la com a ponta de um palito.\n\nIsso geralmente indica que há um pouco de excesso de água. Reduza a frequência das borrifadelas.\n\nPrevenir é Melhor que Remediar: Garantir a circulação de ar por uma ou duas horas por dia pode prevenir o aparecimento de fungos.\n\nCuriosidade do Dia: O hibisco é rico em antioxidantes, especialmente as antocianinas, que são os pigmentos que dão a cor vermelha intensa às flores da variedade sabdariffa. Estes compostos são estudados pelos seus benefícios para a saúde, como o controlo da pressão arterial. A sua pequena semente contém o projeto para criar uma pequena fábrica destes incríveis compostos naturais."
+      },
+      "11": {
+        "title": "Dia 11: A Fábrica Silenciosa Debaixo da Terra",
+        "content": "Hoje é um dia para apreciar o invisível. Embora a superfície do seu vaso pareça a mesma, debaixo da terra, a sua semente de hibisco é uma pequena fábrica a trabalhar a todo o vapor. O despertar que começou com a água no Dia 2 ativou um processo bioquímico complexo.\n\nSua Missão de Hoje: Manter a rotina e entender a nutrição interna da semente.\n\nA Rotina é a Âncora: Continue com o seu ritual sagrado: verifique a umidade do substrato. O ambiente húmido e quente que você criou é o combustível para a fábrica que está em operação. Borrife suavemente se necessário e recoloque a cobertura.\n\nO Lanche Energético da Semente: Dentro da casca, o embrião da planta está a consumir o seu próprio lanche: o endosperma. Pense no endosperma como a \"gema de um ovo\" para a semente. É um tecido nutritivo, rico em amido, óleos e proteínas, que fornece toda a energia necessária para o embrião desenvolver a sua primeira raiz (a radícula) e o seu primeiro caule (o hipocótilo), antes mesmo de ter acesso à luz solar para se alimentar.\n\nConfie na Natureza: O processo é autónomo. A semente sabe exatamente o que fazer. O nosso papel não é interferir, mas sim garantir que nada perturbe este delicado processo.\n\nCuriosidade do Dia: A resiliência das sementes é um dos milagres da natureza. Sementes de lótus com mais de 1.300 anos, encontradas num antigo leito de lago na China, foram capazes de germinar! Elas esperaram pacientemente por mais de um milénio pelas condições certas. A sua pequena semente de hibisco carrega essa mesma força ancestral e essa incrível capacidade de esperar pelo momento perfeito para nascer."
+      },
+      "12": {
+        "title": "Dia 12: O Maestro do Microclima",
+        "content": "Hoje, vamos aprofundar a nossa compreensão sobre o ambiente que criámos. Você não é apenas um cuidador, você é o maestro de um pequeno ecossistema. Cada elemento – calor, umidade, ar – precisa estar em harmonia para que a sinfonia da germinação aconteça sem problemas.\n\nSua Missão de Hoje: Observar os sinais do microclima e manter a consistência.\n\nVerifique a Umidade e Observe a Condensação: Ao levantar a cobertura, além de tocar no substrato, observe o próprio plástico. Vê pequenas gotículas de água condensadas? Ótimo! Isso é um sinal visual de que o seu efeito estufa está a funcionar perfeitamente. Significa que a umidade está a evaporar, a ficar presa e a voltar para a terra, criando um ciclo de umidade constante, exatamente como o hibisco adora.\n\nA Consistência é a Chave: As sementes são sensíveis a mudanças bruscas. Variações extremas de temperatura (por exemplo, mover o recipiente para um local frio durante a noite) podem \"confundir\" a semente, abrandando ou até mesmo parando o processo de germinação. Manter o seu berçário no mesmo local quente e estável é um dos maiores presentes que pode dar às suas sementes agora.\n\nUm Pouco de Ar Fresco: Se a condensação for excessiva (gotas grandes a escorrer), pode ser um bom dia para deixar a cobertura entreaberta por uma ou duas horas. Isso renova o ar e evita que o ambiente fique demasiado encharcado, prevenindo fungos, como aprendemos no Dia 10.\n\nCuriosidade do Dia: A flor do hibisco é um exemplo clássico da \"simetria pentâmera\". Ela possui cinco pétalas (nas variedades simples), e a sua estrutura reprodutiva também se divide em múltiplos de cinco. Em muitas tradições espirituais e simbólicas, o número cinco representa os cinco elementos (terra, água, fogo, ar, éter) ou os cinco sentidos humanos. Ao cuidar desta semente, você está a cultivar uma futura flor que é um pequeno símbolo de equilíbrio e harmonia universal."
+      },
+      "13": {
+        "title": "Dia 13: A Tensão Antes da Estreia",
+        "content": "Estamos na véspera da nossa meta inicial de 14 dias. A energia debaixo da terra está no seu auge. A pequena raiz já está a absorver umidade e a muda está a reunir as últimas forças para empurrar a terra e ver a luz pela primeira vez.\n\nSua Missão de Hoje: Preparar-se para as boas-vindas.\n\nÚltima Verificação na Estufa: Faça a sua verificação de umidade com um cuidado extra. Hoje é o último dia em que o ambiente fechado é a prioridade máxima.\n\nObserve com Muita Atenção: Procure por qualquer elevação ou fissura mínima no solo. É o sinal de que alguém está a bater à porta, pronto para sair.\n\nPrepare o Próximo Passo: Releia as instruções para o Dia 15 e 16. Assim que o broto surgir, as suas necessidades mudarão rapidamente de \"calor e umidade\" para \"ar e luz\". Estar preparado fará toda a diferença.\n\nCuriosidade do Dia: O hibisco é conhecido como uma planta \"helotrópica\", o que significa que as suas folhas e flores podem seguir a trajetória do sol ao longo do dia para maximizar a absorção de luz. Você observará este comportamento de forma muito clara assim que as suas mudas estiverem um pouco maiores. É um lembrete de que as plantas, embora pareçam estáticas, estão em constante movimento e interação com o seu ambiente."
+      },
+      "14": {
+        "title": "Dia 14: Bem-vindo ao Mundo, Pequeno Broto!",
+        "content": "Hoje é um dia de celebração! É muito provável que, por volta deste dia, você seja recompensado pela sua paciência. O primeiro vislumbre de verde é um momento mágico, a confirmação de que a vida encontrou um caminho.\n\nSua Missão de Hoje: Celebrar e entender o que acabou de acontecer.\n\nO Que Você Vê: O que surge primeiro não são folhas, mas sim os cotilédones. São as primeiras \"folhas\" embrionárias que estavam guardadas dentro da semente. Elas funcionam como a \"lancheira\" do bebé-planta, fornecendo a energia inicial para ele se firmar antes de poder fazer a sua própria comida através da fotossíntese.\n\nUm Broto Tímido: Não se assuste se o broto parecer um pequeno gancho ou uma alça. Ele surge curvado para proteger as delicadas folhas enquanto empurra a terra para cima. Em breve, ele vai-se endireitar.\n\nCuriosidade do Dia: A cor vibrante das flores de hibisco não é apenas para nos agradar. Ela serve como uma pista de pouso para polinizadores, como abelhas e beija-flores. Cada cor e padrão é uma estratégia evolutiva para atrair o tipo certo de polinizador para garantir a reprodução da planta."
+      },
+      "15": {
+        "title": "Dia 15: Ar Fresco, Por Favor!",
+        "content": "O ambiente de estufa foi crucial para acordar as sementes, mas agora ele pode ser prejudicial, pois a falta de circulação de ar pode causar o apodrecimento do caule delicado (uma condição chamada \"damping off\").\n\nSua Missão de Hoje: Remover a tampa e aclimatar as mudas.\n\nRemova a Cobertura: Retire permanentemente o plástico filme ou a tampa da sua bandeja/copos. Deixe as mudinhas respirarem o ar do seu apartamento.\n\nMonitorize a Umidade: Sem a cobertura, o substrato vai secar muito mais rápido. A sua rotina de verificação da umidade agora é ainda mais importante."
+      },
+      "16": {
+        "title": "Dia 16: O Banho de Luz",
+        "content": "A fotossíntese está a começar! Este é o processo incrível em que a planta usa a luz do sol, água e dióxido de carbono para criar o seu próprio açúcar (energia). Sem luz suficiente, a sua muda ficará pálida e comprida, num esforço desesperado para alcançar qualquer fonte de luz.\n\nSua Missão de Hoje: Mover as mudas para o local mais ensolarado que tiver.\n\nA Janela Principal: O parapeito da janela que recebe mais horas de sol por dia agora é o melhor amigo das suas mudas. Em apartamentos, geralmente são as janelas viradas a Norte.\n\nLuz é Energia: Pense na luz como a comida principal da sua planta a partir de agora. Quanto mais luz de qualidade ela receber, mais forte e robusta ela crescerá."
+      },
+      "17": {
+        "title": "Dia 17: O Balé das Plantas",
+        "content": "Você vai notar algo fascinante: as suas mudas vão inclinar-se visivelmente em direção à janela. Este fenómeno chama-se fototropismo. É a planta a otimizar a exposição das suas folhas à luz.\n\nSua Missão de Hoje: Girar os recipientes.\n\nA Rotação de 180 Graus: Uma vez por dia, gire a bandeja ou os copinhos pela metade. A parte que estava virada para a janela agora fica virada para dentro do apartamento.\n\nPor que fazer isso? Este simples ato \"força\" a muda a endireitar-se e a fortalecer o seu caule por igual. Se não o fizer, ela crescerá torta e pode ficar fraca. É um pequeno exercício diário para um crescimento reto e forte."
+      },
+      "18": {
+        "title": "Dia 18: A Rega Correta",
+        "content": "As raízes da sua muda ainda são muito pequenas e frágeis. Uma rega forte pode desalojá-las ou compactar o substrato.\n\nSua Missão de Hoje: Regar com precisão e delicadeza.\n\nFoco na Base: Em vez de borrifar por cima, tente regar diretamente o substrato, na base da planta. Isso entrega a água onde é necessária (nas raízes) e mantém as folhas secas, prevenindo fungos.\n\nUse o Teste do Dedo: A regra de ouro da jardinagem começa aqui. Afunde a ponta do seu dedo cerca de 1 cm no substrato. Se sair limpo e seco, é hora de regar. Se sair com terra húmida, espere mais um dia."
+      },
+      "19": {
+        "title": "Dia 19: A Identidade Revelada",
+        "content": "Olhe de perto para as suas mudas. Você verá que, acima das duas primeiras folhas arredondadas (os cotilédones), estão a surgir novas folhas. E estas são diferentes!\n\nSua Missão de Hoje: Identificar as \"folhas verdadeiras\".\n\nO Que São? As folhas verdadeiras têm o formato serrilhado e característico da folha de um hibisco adulto. Elas são a prova de que a sua muda passou da fase de \"bebé\" e agora é uma planta jovem, capaz de se sustentar sozinha através da fotossíntese.\n\nUm Marco Importante: O surgimento do primeiro par de folhas verdadeiras é o maior indicador de saúde e desenvolvimento da sua muda até agora."
+      },
+      "20": {
+        "title": "Dia 20: Admiração e Conexão",
+        "content": "Hoje, a sua tarefa é simples: apenas observe. Veja como as folhas verdadeiras estão maiores do que ontem. Note a cor verde vibrante. Sinta o substrato.\n\nSua Missão de Hoje: Conectar-se com a sua planta.\n\nA jardinagem é uma prática de mindfulness. Tirar um momento para apreciar o progresso, sem a necessidade de \"fazer\" algo, é parte da recompensa. Você guiou esta pequena vida desde uma semente dura e adormecida até uma pequena planta vibrante. Sinta orgulho disso!"
+      },
+      "21": {
+        "title": "Dia 21: A Formatura e os Próximos Passos",
+        "content": "Parabéns, jardineiro(a)! Você completou com sucesso a jornada de 21 dias de germinação. As suas sementes transformaram-se em mudas jovens e promissoras, prontas para crescer.\n\nSua Missão de Hoje: Celebrar e planear o futuro.\n\nO Que Fazer Agora? Continue a rotina de luz e rega. As suas mudas ainda são felizes nos seus recipientes pequenos.\n\nQuando Transplantar? O próximo grande passo será o transplante para um vaso maior e definitivo. A regra é esperar até que a muda tenha pelo menos três pares de folhas verdadeiras. Nesse ponto, o seu sistema de raízes será forte o suficiente para suportar a mudança de casa.\n\nVocê deu o primeiro e mais crucial passo na vida do seu hibisco. A jornada daqui para a frente é de crescimento, floração e muita beleza. Bom cultivo!"
+      }
+    }
+  },
   "languages": {
     "en": "English",
     "es": "Español",
@@ -104,7 +252,14 @@
     "loginError": "E-mail ou senha inválidos.",
     "loggingIn": "Entrando...",
     "creatingAccount": "Criando conta...",
-    "emailPlaceholder": "seu@email.com"
+    "emailPlaceholder": "seu@email.com",
+    "inactivityLogout": "Você foi desconectado por inatividade. Por favor, faça login novamente."
+  },
+  "autoLogout": {
+    "warningTitle": "Sessão Expirando",
+    "warningMessage": "Você será desconectado em {{seconds}} segundos devido à inatividade. Deseja continuar conectado?",
+    "logoutButton": "Sair Agora",
+    "stayLoggedInButton": "Continuar Conectado"
   },
   "contact": {
     "title": "Contato",

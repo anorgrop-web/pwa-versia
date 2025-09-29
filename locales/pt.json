@@ -36,6 +36,22 @@
     "title": "Comunidade",
     "description": "Conecte-se com outros jardineiros e compartilhe suas experiências."
   },
+  "install": {
+    "title": "Como Instalar o Versia Garden",
+    "ios": {
+      "title": "Para iPhone (iOS)",
+      "step1": "Abra o navegador Safari e acesse nosso site.",
+      "step2": "Toque no ícone de Compartilhamento na barra inferior.",
+      "step3": "Role para baixo e selecione \"Adicionar à Tela de Início\".",
+      "step4": "Toque em \"Adicionar\" no canto superior direito para confirmar."
+    },
+    "android": {
+      "title": "Para Android",
+      "step1": "Abra o navegador Chrome e acesse nosso site.",
+      "step2": "Um convite para instalar o aplicativo deve aparecer. Toque em \"Instalar\".",
+      "step3": "Se o convite não aparecer, toque no menu de três pontos no canto superior direito e selecione \"Instalar aplicativo\"."
+    }
+  },
   "profile": {
     "title": "Perfil",
     "personalData": "Dados Pessoais",

@@ -43,7 +43,7 @@ export default function RootLayout({
       </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} antialiased`}>
         <I18nProvider>
-          <AutoLogoutProvider idleTimeout={15 * 60 * 1000} warningTime={60 * 1000}>
+          <AutoLogoutProvider idleTimeout={3 * 60 * 1000} warningTime={30 * 1000}>
             <Suspense fallback={null}>{children}</Suspense>
           </AutoLogoutProvider>
         </I18nProvider>

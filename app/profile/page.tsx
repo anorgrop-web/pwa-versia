@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { useTranslation } from "react-i18next"
-import { ArrowLeft, Camera, Shield } from "lucide-react"
+import { ArrowLeft, Camera, Shield, LogOut } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -13,6 +13,7 @@ import { Separator } from "@/components/ui/separator"
 import { BottomNavigation } from "@/components/bottom-navigation"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
+import { createClient } from "@/lib/supabase/client"
 
 const countryCodes = [
   { code: "+55", country: "Brasil", flag: "🇧🇷", languages: ["pt", "pt-BR"] },
@@ -44,6 +45,7 @@ export default function ProfilePage() {
   const { t, i18n } = useTranslation()
   const router = useRouter()
   const [activeTab, setActiveTab] = useState("home")
+  const supabase = createClient()
 
   const [formData, setFormData] = useState({
     firstName: "",
@@ -79,6 +81,15 @@ export default function ProfilePage() {
     // Here you would typically trigger password reset flow
     console.log("Reset password requested")
     // Show modal or navigate to reset password page
+  }
+
+  const handleLogout = async () => {
+    try {
+      await supabase.auth.signOut()
+      router.push("/login")
+    } catch (error) {
+      console.error("[v0] Error during logout:", error)
+    }
   }
 
   const handleTabChange = (tab: string) => {
@@ -291,6 +302,24 @@ export default function ProfilePage() {
                   size="lg"
                 >
                   {t("profile.resetPassword")}
+                </Button>
+              </div>
+
+              <Separator />
+
+              {/* Logout Section */}
+              <div className="space-y-3">
+                <div className="flex items-center gap-2">
+                  <LogOut className="h-5 w-5 text-destructive" />
+                  <Label className="text-sm font-medium">{t("profile.logout")}</Label>
+                </div>
+                <Button
+                  variant="outline"
+                  onClick={handleLogout}
+                  className="w-full border-destructive text-destructive hover:bg-destructive/10 font-semibold py-3 bg-transparent"
+                  size="lg"
+                >
+                  {t("profile.logoutButton")}
                 </Button>
               </div>
             </CardContent>

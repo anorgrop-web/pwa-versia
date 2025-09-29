@@ -78,7 +78,9 @@
     "fallbacks": {
       "userName": "Nome do Usuário",
       "userEmail": "email@exemplo.com"
-    }
+    },
+    "logout": "Sair",
+    "logoutButton": "Sair do Aplicativo"
   },
   "coupons": {
     "title": "Cupons de Desconto",

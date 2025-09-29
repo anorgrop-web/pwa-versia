@@ -4,7 +4,7 @@ import { GeistSans } from "geist/font/sans"
 import { GeistMono } from "geist/font/mono"
 import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
-import "@/lib/i18n"
+import { I18nProvider } from "@/components/i18n-provider"
 import "./globals.css"
 
 export const metadata: Metadata = {
@@ -24,7 +24,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} antialiased`}>
-        <Suspense fallback={null}>{children}</Suspense>
+        <I18nProvider>
+          <Suspense fallback={null}>{children}</Suspense>
+        </I18nProvider>
         <Analytics />
       </body>
     </html>

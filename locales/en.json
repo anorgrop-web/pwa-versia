@@ -292,7 +292,9 @@
           "content": "Congratulations, gardener! You've successfully completed the 21-day germination journey. Your seeds have transformed into young, promising seedlings, ready to grow.\n\nYour Mission Today: Celebrate and plan the future.\n\nWhat to Do Now? Continue the routine of light and watering. Your seedlings are still happy in their small containers.\n\nWhen to Transplant? The next big step will be transplanting to a larger, permanent pot. The rule is to wait until the seedling has at least three pairs of true leaves. At that point, its root system will be strong enough to support the change of home.\n\nYou've taken the first and most crucial step in your hibiscus's life. The journey from here is one of growth, flowering, and much beauty. Happy growing!"
         }
       }
-    }
+    },
+    "startButton": "Start now",
+    "moreComingSoon": "More plants coming soon..."
   },
   "hibiscus": {
     "title": "Hibiscus rosa-sinensis - 21-Day Program",

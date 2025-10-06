@@ -2,7 +2,8 @@
   "nav": {
     "home": "Home",
     "guide": "Plant Guide",
-    "community": "Community"
+    "community": "Community",
+    "install": "How to Install"
   },
   "menu": {
     "title": "Menu",
@@ -11,7 +12,8 @@
     "plantingArea": "Planting Area",
     "tutorials": "Tutorials",
     "trackOrders": "Track Orders",
-    "contact": "Contact"
+    "contact": "Contact",
+    "install": "How to Install"
   },
   "header": {
     "logo": "Versia Garden",
@@ -19,8 +21,8 @@
     "menu": "Menu"
   },
   "banner": {
-    "title": "Welcome to your garden",
-    "subtitle": "Cultivate with wisdom, harvest with joy",
+    "title": "Welcome to your garden!",
+    "subtitle": "Cultivate with wisdom, harvest with joy.",
     "cta": "Get started"
   },
   "home": {
@@ -68,15 +70,17 @@
   },
   "coupons": {
     "title": "Discount Coupons",
-    "instructionTitle": "Redeem your coupons and enjoy discounts on our website",
-    "step1": "Step 1: Click reveal coupon;",
-    "step2": "Step 2: Click copy to copy the coupon;",
-    "step3": "Step 3: Click 'Go to website';",
-    "step4": "Step 4: Choose the products to purchase;",
-    "step5": "Step 5: Use the coupon at checkout and enjoy your discounted purchase.",
     "revealButton": "Reveal Coupon",
     "copyButton": "Copy",
     "copiedButton": "Copied!",
+    "goToWebsite": "Go to website",
+    "redeemTitle": "Redeem your coupons and enjoy discounts on our website",
+    "howToUse": "How to use your coupons",
+    "step1": "Click reveal coupon",
+    "step2": "Click copy to copy the coupon",
+    "step3": "Click 'Go to website'",
+    "step4": "Choose the products to purchase",
+    "step5": "Use the coupon at checkout and enjoy your discounted purchase",
     "GARDEN10": {
       "description": "Get 10% off on any purchase in our app."
     },
@@ -85,26 +89,28 @@
     }
   },
   "recurrence": {
-    "title": "Subscriptions",
-    "pageTitle": "Choose your product of the month",
-    "backButton": "Back",
-    "redeemButton": "Redeem",
-    "redeemedButton": "Redeemed!",
-    "goToWebsite": "Go to website",
-    "products": {
-      "product1": {
-        "title": "Organic Seeds",
-        "description": "Premium collection of organic seeds selected for this month's cultivation. Perfect for starting your garden."
-      },
-      "product2": {
-        "title": "Premium Fertilizer",
-        "description": "High-quality organic fertilizer to nourish your plants and ensure healthy growth."
-      },
-      "product3": {
-        "title": "Tool Kit",
-        "description": "Essential set of gardening tools to make caring for your plants easier."
-      }
-    }
+    "title": "Recurrence Management",
+    "description": "Manage your subscriptions and recurring deliveries",
+    "noRecurrences": "You have no active recurrences",
+    "noRecurrencesDescription": "When you subscribe to recurring deliveries, they will appear here.",
+    "active": "Active",
+    "paused": "Paused",
+    "cancelled": "Cancelled",
+    "frequency": "Frequency",
+    "nextDelivery": "Next Delivery",
+    "startDate": "Start Date",
+    "status": "Status",
+    "actions": "Actions",
+    "pause": "Pause",
+    "resume": "Resume",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "confirmCancel": "Are you sure you want to cancel this recurrence?",
+    "confirmPause": "Are you sure you want to pause this recurrence?",
+    "weekly": "Weekly",
+    "biweekly": "Biweekly",
+    "monthly": "Monthly",
+    "quarterly": "Quarterly"
   },
   "languages": {
     "en": "English",
@@ -113,8 +119,8 @@
     "it": "Italiano",
     "de": "Deutsch",
     "pt": "Português",
-    "hr": "Croatian",
-    "pl": "Polish"
+    "hr": "Hrvatski",
+    "pl": "Polski"
   },
   "auth": {
     "loginTitle": "Welcome back!",
@@ -197,200 +203,69 @@
     "title": "Planting Area",
     "description": "Learn to germinate and grow your favorite plants with step-by-step guides",
     "hibiscus": {
-      "title": "Hibiscus rosa-sinensis - 21-Day Program",
-      "description": "Learn how to germinate and grow healthy hibiscus with this step-by-step guided program",
-      "day": "Day",
-      "progress": "Progress",
-      "daysCompleted": "days completed",
-      "markComplete": "Mark as complete",
-      "markIncomplete": "Mark as incomplete",
-      "previousDay": "Previous day",
-      "nextDay": "Next day",
-      "days": {
-        "1": {
-          "title": "Day 1: Preparing the Nest",
-          "content": "Today we don't plant, we prepare the perfect nursery for our seeds. Think of this day as setting up a room for a baby that's about to arrive. Every detail matters to ensure they feel safe and comfortable to awaken.\n\nYour Mission Today: Gather and understand each of your materials.\n\nThe Container: Germination Tray or Small Cup?\n\nGermination Tray: Think of it as a luxury condominium for seeds. Each seed has its own \"home\" (cell), with ideal drainage and space to grow without competing with others. The lid that usually comes with it creates a perfect greenhouse effect. It's the professional choice to maximize germination.\n\nPlastic Cups (or yogurt containers): This is the \"do it yourself\" solution, and it works very well! It's like creating several individual little houses. Most important: make 2 to 3 small holes in the bottom of each cup. Without this, water accumulates and the roots of your future plant can rot before they even grow.\n\nThe Substrate: The Seed Bed\n\nWhy a special substrate? The roots of a baby plant are incredibly delicate. They don't have the strength to push through garden soil, which is heavy and compact. We need a fluffy, aerated \"mattress\" that retains moisture just right.\n\nWhat to use? Look in gardening stores for \"Seedling Substrate\" or \"Light Soil\". They come ready-made. If you want to make your own, a great mix is: 2 parts peat, 1 part vermiculite (or perlite) and 1 part worm castings.\n\nWater and the Spray Bottle: The Care of Hydration\n\nWhy a spray bottle? Imagine throwing a bucket of water into a crib. You wouldn't do that, right? A watering can would do the same thing to your seeds: displace them and mess up the substrate. The spray bottle simulates a gentle mist, a caress that moistens the soil without disturbing the seeds that are about to sleep.\n\nThe Cover: The Warm Hug\n\nYou'll need plastic wrap (the kitchen kind) or a transparent lid. This will serve to create a mini-greenhouse environment. Hibiscus are plants of tropical origin. They love heat and humidity! This cover will retain the heat and moisture from the substrate, creating the perfect climate that tells the seed: \"you can wake up, it's safe and cozy out here\".\n\nFun Fact of the Day: The Hibiscus rosa-sinensis we're planting is a traveling plant! Despite the name \"rose of China\", its exact origin is a mystery, but it's believed to come from somewhere in tropical Asia. It spread around the world on ships, winning hearts at every port with its exuberant flowers. Today, we're recreating this tropical climate inside your apartment."
-        },
-        "2": {
-          "title": "Day 2: Awakening the Seeds with an Ancestral Secret",
-          "content": "Seeds are like time capsules, keeping life in a dormant state. The hard shell is armor that protects them during long journeys, whether by wind, water, or in a bird's stomach. Our mission today is to whisper to this armor that it can relax now, because it has arrived at a safe place.\n\nYour Mission Today: Scarify and hydrate the seeds.\n\nScarification: The Key That Opens the Door\n\nWhat is it? It's the act of lightly wearing down the seed coat. Think of it as sanding the paint off a door before applying varnish. This small wear creates microfissures that allow water to penetrate and give the signal \"time to wake up\" to the embryo inside.\n\nHow to Do It: Take a nail file (doesn't need to be new) and gently rub the seed over it a few times. No force needed! The goal is just to remove the shine from a small part of the shell.\n\nHydration: The First Bath of Life\n\nWhat to do: After scarification, place the seeds in a glass with warm water (not hot!). A temperature pleasant to the touch is perfect. Leave them soaking for about 12 to 24 hours.\n\nWhat to expect: You'll see that seeds that were well scarified will swell, sometimes even doubling in size. This is a wonderful sign! It means the water has overcome the armor and the germination process has begun internally.\n\nFun Fact of the Day: In Hawaii, the hibiscus (called \"Pua Aloalo\") is the state flower. Women traditionally wear a hibiscus flower in their hair – behind the right ear if they're available for a relationship, and behind the left if they're committed. The flower lasts only one or two days, a reminder of the delicate and fleeting beauty of life."
-        },
-        "3": {
-          "title": "Day 3: Planting and the Promise of Life",
-          "content": "Today is the big day! The seeds have been prepared and the nursery is ready. Now, let's unite them. The act of planting is an act of faith and hope. We're entrusting a tiny life to the earth, with the promise that we'll take care of it.\n\nYour Mission Today: Sow your hibiscus seeds.\n\nPrepare the Bed: Take your tray or cups and fill with the substrate you set aside on Day 1. Don't compact the soil! Just fill and level gently with your fingers.\n\nMoisten the Substrate: With your spray bottle, give the entire substrate a good moistening. It should be moist like a wrung-out sponge, not dripping. It's easier to moisten well now than after planting.\n\nSowing with Care:\n\nMake a small hole in the center of each cell or cup, about 0.5 cm deep. A good tip is to use the tip of a pencil or your fingertip.\n\nRemove the seeds from the water and place one in each hole.\n\nCover the seed with a thin layer of substrate, without pressing. It just needs to be in the dark to begin.\n\nThe First Blessing: Give a final spray of water over everything. This helps settle the soil around the seed, eliminating air pockets and ensuring good contact.\n\nFun Fact of the Day: The name \"Hibiscus\" was given by the Greek physician and botanist Dioscorides in the first century AD. He was probably referring to a different plant, but the name stuck. The \"rosa-sinensis\" part literally means \"rose of China\", a name given by botanist Carl Linnaeus in the 18th century, consolidating the belief in its Asian origin."
-        },
-        "4": {
-          "title": "Day 4: Building the Tropical Dome",
-          "content": "Today, we'll transform our simple container into a private biosphere. The hibiscus seed holds in its genetic memory the climate of its origins: hot, humid, and muggy. Our mission is to recreate this miniature tropical paradise.\n\nYour Mission Today: Seal the container to create a greenhouse effect.\n\nThe Cover: Take the plastic wrap or transparent lid you set aside on Day 1.\n\nSealing with Care: Cover the mouth of your germination tray or cups. The goal is to create a barrier that prevents moisture from escaping. The water vapor that evaporates from the substrate will be trapped, condense on the plastic surface, and return to the soil, creating a constant moisture cycle.\n\nWhy does this work? This environment simulates the layer of leaves and forest litter of a tropical forest, which keeps the soil moist and warm. It's the definitive signal to the seed, saying: \"The environment is stable and safe, you can germinate without fear\".\n\nFun Fact of the Day: Hibiscus tea, famous worldwide, is not made from the flowers of the Hibiscus rosa-sinensis we're planting! It's made from the calyces of another variety, Hibiscus sabdariffa (known as roselle or sorrel). The flowers we'll have are purely ornamental, but equally spectacular."
-        },
-        "5": {
-          "title": "Day 5: Hunting for the Cozy Corner",
-          "content": "The location of your nursery is one of the most critical factors for success. At this stage, the seed doesn't need strong sun. In fact, direct sun could overheat your mini-greenhouse and \"cook\" the seeds. What it needs is consistent warmth.\n\nYour Mission Today: Find the ideal spot inside your apartment.\n\nThink Warmth, Not Direct Light: Where does that morning sun hit that makes the environment warm? Near a window that receives morning sun is great, but position the containers so the light is indirect.\n\nAlternative Heat Sources: A surprisingly effective location is on top of your refrigerator! The motor generates subtle, consistent heat that rises, warming the base of your tray. Other options are near electronic devices that stay on (like an internet router).\n\nAvoid: Window sills that receive strong afternoon sun and locations with cold drafts (near doors or air conditioning).\n\nFun Fact of the Day: Hibiscus flowers are hermaphroditic, meaning each flower has both male reproductive organs (stamens, which produce pollen) and female organs (the pistil, which receives pollen). This long, prominent structure in the center of the flower is what makes it so unique and is a clue about its fascinating reproductive biology."
-        },
-        "6": {
-          "title": "Day 6: The Guardian of Moisture",
-          "content": "Your mission today seems simple: check the moisture. But what we're really doing is ensuring the perfect water balance. The seed needs water to activate its internal processes, but excess water can \"drown\" it, depriving it of the oxygen needed to breathe and decomposing its protective shell too early.\n\nYour Mission Today: Keep the substrate like a humid forest, not a swamp.\n\nThe Daily Ritual: Lift your cover (plastic wrap or lid) and feel the substrate with your fingertip. It's our moisture thermometer. The soil should stick lightly to your finger.\n\nThe Art of the Spray Bottle: If you feel the top drying out, use the spray bottle. Give 2 to 3 sprays, enough to re-moisten the surface layer. The water will descend slowly. Remember, consistency is more important than quantity. It's better to spray a little every day than to soak the soil once a week.\n\nClose the Greenhouse: Replace the cover. The moisture cycle we created on Day 4 continues to be our best ally.\n\nFun Fact of the Day: Did you know that hibiscus seeds can remain viable (capable of germinating) for several years if stored in dry, cool conditions? They enter a state of deep dormancy, an incredible survival mechanism that allows them to wait for perfect conditions to awaken. What we're doing now is artificially creating these \"perfect conditions\"."
-        },
-        "7": {
-          "title": "Day 7: The Virtue of Patience",
-          "content": "Today, our greatest gardening tool is patience. It's easy to get anxious, wanting to peek under the soil to see if anything is happening. Resist that temptation! The most important work is happening in the dark, in the silence of the substrate. The primary root, called the radicle, is breaking through the shell and digging into the soil, seeking anchorage and the first nutrients.\n\nYour Mission Today: Trust the process and continue the routine.\n\nCheck the Moisture: Do your daily verification ritual. Spray if necessary.\n\nExercise Observation: Look at the soil surface. Don't look for a sprout, but familiarize yourself with the substrate's appearance. This way, any minimal change, like a small crack in the soil, will be easily noticed in the coming days.\n\nChannel the Energy: If you feel the urge to \"do something\", use that energy to research types of hibiscus or plan what the final pot for your seedling will be.\n\nFun Fact of the Day: Hibiscus belongs to the large Malvaceae family, the same as cotton and okra! If you look closely at an okra flower, you'll notice a surprising similarity to the structure of a simple hibiscus. It's a reminder of how plants, even with such different appearances, can be \"cousins\"."
-        },
-        "8": {
-          "title": "Day 8: Eagle Eyes",
-          "content": "From today on, our observation becomes more active. Germination can happen at any moment! Some seeds are more hasty, others more cautious. Your job is to be the first to welcome the sprout that emerges.\n\nYour Mission Today: Look for the first signs of life.\n\nMoisture Routine: First, the usual: check moisture and spray if necessary.\n\nWhat to Look For: Examine the substrate surface carefully. The first sign isn't a leaf, but rather a small \"loop\" or \"elbow\" of light green or whitish color pushing through the soil. It's the stem (hypocotyl) emerging, curved to protect the fragile embryonic leaves. Seeing this is your victory signal!\n\nDon't Worry if You See Nothing: It's perfectly normal that nothing has happened yet. Each seed has its own biological clock. Continue giving it ideal conditions.\n\nFun Fact of the Day: Hibiscus flowers are famous for being short-lived, often opening in the morning and wilting by the end of the afternoon of the same day. Therefore, they're a symbol of beauty and the ephemeral nature of life's precious moments. In some cultures, they represent \"seize the moment\"."
-        },
-        "9": {
-          "title": "Day 9: The Importance of Coziness",
-          "content": "Today, let's focus on the second secret ingredient of germination (the first was moisture): warmth. Hibiscus seeds are like little eggs that need to be \"incubated\". Soil temperature acts as a trigger for chemical reactions inside the seed.\n\nYour Mission Today: Ensure the nursery stays warm.\n\nCheck Moisture and Warmth: Do your routine check. Feel the container's temperature. Is it warm to the touch? Great. If it's cold, you might need to find a warmer location, as suggested on Day 5.\n\nWhy is Warmth Crucial? Heat accelerates the seed's metabolism. It gives the energy for the embryo to expand, break the shell, and send its first root down and its first stem up. Cold soils can delay germination for weeks or even cause the seed to rot.\n\nFun Fact of the Day: There are more than 200 species of hibiscus spread around the world, from giant tropical shrubs to herbaceous plants that survive in temperate climates. Their flowers come in almost every color, except true blue or black (flowers with these colors are usually dyed or digital creations)."
-        },
-        "10": {
-          "title": "Day 10: The Watchful Guard Against Problems",
-          "content": "With such a humid and warm environment, we're creating perfect conditions not only for our seeds but also for unwanted visitors like fungi and mold. Today, our focus is prevention.\n\nYour Mission Today: Inspect the nursery for problems.\n\nVisual Inspection: When checking moisture, look for any spot that looks like white or greenish \"cotton\" on the substrate surface. That's mold.\n\nWhat to Do if You Find Mold? Don't panic.\n\nRemove the plastic cover for a few hours to allow air to circulate and the surface to dry a bit.\n\nIf it's a small spot, you can try removing it with the tip of a toothpick.\n\nThis usually indicates there's a bit of excess water. Reduce the frequency of spraying.\n\nPrevention is Better than Cure: Ensuring air circulation for an hour or two a day can prevent fungi from appearing.\n\nFun Fact of the Day: Hibiscus is rich in antioxidants, especially anthocyanins, which are the pigments that give the intense red color to sabdariffa variety flowers. These compounds are studied for their health benefits, such as blood pressure control. Your tiny seed contains the blueprint to create a small factory of these amazing natural compounds."
-        },
-        "11": {
-          "title": "Day 11: The Silent Factory Underground",
-          "content": "Today is a day to appreciate the invisible. Although your pot's surface looks the same, underground, your hibiscus seed is a small factory working at full steam. The awakening that began with water on Day 2 activated a complex biochemical process.\n\nYour Mission Today: Maintain the routine and understand the seed's internal nutrition.\n\nThe Routine is the Anchor: Continue with your sacred ritual: check the substrate's moisture. The humid and warm environment you created is the fuel for the factory in operation. Spray gently if necessary and replace the cover.\n\nThe Seed's Energy Snack: Inside the shell, the plant embryo is consuming its own snack: the endosperm. Think of the endosperm as the \"egg yolk\" for the seed. It's a nutritious tissue, rich in starch, oils, and proteins, that provides all the energy needed for the embryo to develop its first root (the radicle) and its first stem (the hypocotyl), even before having access to sunlight to feed itself.\n\nTrust Nature: The process is autonomous. The seed knows exactly what to do. Our role isn't to interfere, but to ensure nothing disturbs this delicate process.\n\nFun Fact of the Day: The resilience of seeds is one of nature's miracles. Lotus seeds over 1,300 years old, found in an ancient lake bed in China, were able to germinate! They waited patiently for more than a millennium for the right conditions. Your little hibiscus seed carries that same ancestral strength and that incredible ability to wait for the perfect moment to be born."
-        },
-        "12": {
-          "title": "Day 12: The Maestro of the Microclimate",
-          "content": "Today, let's deepen our understanding of the environment we've created. You're not just a caretaker, you're the maestro of a small ecosystem. Each element – heat, moisture, air – needs to be in harmony for the symphony of germination to happen smoothly.\n\nYour Mission Today: Observe the microclimate signs and maintain consistency.\n\nCheck Moisture and Observe Condensation: When lifting the cover, besides touching the substrate, observe the plastic itself. Do you see small water droplets condensed? Great! This is a visual sign that your greenhouse effect is working perfectly. It means moisture is evaporating, getting trapped, and returning to the soil, creating a constant moisture cycle, exactly as hibiscus loves.\n\nConsistency is Key: Seeds are sensitive to abrupt changes. Extreme temperature variations (for example, moving the container to a cold location at night) can \"confuse\" the seed, slowing or even stopping the germination process. Keeping your nursery in the same warm and stable location is one of the greatest gifts you can give your seeds now.\n\nA Bit of Fresh Air: If condensation is excessive (large drops dripping), it might be a good day to leave the cover slightly open for an hour or two. This renews the air and prevents the environment from becoming too waterlogged, preventing fungi, as we learned on Day 10.\n\nFun Fact of the Day: The hibiscus flower is a classic example of \"pentamerous symmetry\". It has five petals (in simple varieties), and its reproductive structure also divides into multiples of five. In many spiritual and symbolic traditions, the number five represents the five elements (earth, water, fire, air, ether) or the five human senses. By caring for this seed, you're cultivating a future flower that is a small symbol of universal balance and harmony."
-        },
-        "13": {
-          "title": "Day 13: The Tension Before the Premiere",
-          "content": "We're on the eve of our initial 14-day goal. The energy underground is at its peak. The small root is already absorbing moisture and the seedling is gathering its last strength to push through the soil and see light for the first time.\n\nYour Mission Today: Prepare for the welcome.\n\nFinal Greenhouse Check: Do your moisture check with extra care. Today is the last day that the closed environment is the top priority.\n\nObserve Very Carefully: Look for any elevation or minimal crack in the soil. It's the sign that someone is knocking at the door, ready to come out.\n\nPrepare the Next Step: Reread the instructions for Days 15 and 16. As soon as the sprout emerges, its needs will quickly change from \"heat and moisture\" to \"air and light\". Being prepared will make all the difference.\n\nFun Fact of the Day: Hibiscus is known as a \"heliotropic\" plant, meaning its leaves and flowers can follow the sun's trajectory throughout the day to maximize light absorption. You'll observe this behavior very clearly once your seedlings are a bit bigger. It's a reminder that plants, although they seem static, are in constant movement and interaction with their environment."
-        },
-        "14": {
-          "title": "Day 14: Welcome to the World, Little Sprout!",
-          "content": "Today is a day of celebration! It's very likely that around this day, you'll be rewarded for your patience. The first glimpse of green is a magical moment, confirmation that life has found a way.\n\nYour Mission Today: Celebrate and understand what just happened.\n\nWhat You See: What emerges first aren't leaves, but cotyledons. They're the first embryonic \"leaves\" that were stored inside the seed. They function as the baby plant's \"lunchbox\", providing initial energy for it to establish itself before it can make its own food through photosynthesis.\n\nA Shy Sprout: Don't be alarmed if the sprout looks like a small hook or loop. It emerges curved to protect the delicate leaves while pushing through the soil upward. Soon, it will straighten up.\n\nFun Fact of the Day: The vibrant color of hibiscus flowers isn't just to please us. It serves as a landing strip for pollinators, like bees and hummingbirds. Each color and pattern is an evolutionary strategy to attract the right type of pollinator to ensure the plant's reproduction."
-        },
-        "15": {
-          "title": "Day 15: Fresh Air, Please!",
-          "content": "The greenhouse environment was crucial for awakening the seeds, but now it can be harmful, as lack of air circulation can cause the delicate stem to rot (a condition called \"damping off\").\n\nYour Mission Today: Remove the lid and acclimate the seedlings.\n\nRemove the Cover: Permanently remove the plastic wrap or lid from your tray/cups. Let the little seedlings breathe your apartment's air.\n\nMonitor Moisture: Without the cover, the substrate will dry much faster. Your moisture checking routine is now even more important."
-        },
-        "16": {
-          "title": "Day 16: The Light Bath",
-          "content": "Photosynthesis is beginning! This is the incredible process where the plant uses sunlight, water, and carbon dioxide to create its own sugar (energy). Without enough light, your seedling will become pale and elongated, in a desperate effort to reach any light source.\n\nYour Mission Today: Move the seedlings to the sunniest spot you have.\n\nThe Main Window: The window sill that receives the most hours of sun per day is now your seedlings' best friend. In apartments, these are usually north-facing windows.\n\nLight is Energy: Think of light as your plant's main food from now on. The more quality light it receives, the stronger and more robust it will grow."
-        },
-        "17": {
-          "title": "Day 17: The Plant Ballet",
-          "content": "You'll notice something fascinating: your seedlings will visibly lean toward the window. This phenomenon is called phototropism. It's the plant optimizing its leaves' exposure to light.\n\nYour Mission Today: Rotate the containers.\n\nThe 180-Degree Rotation: Once a day, rotate the tray or cups by half. The part that was facing the window now faces inside the apartment.\n\nWhy do this? This simple act \"forces\" the seedling to straighten up and strengthen its stem equally. If you don't do this, it will grow crooked and may become weak. It's a small daily exercise for straight and strong growth."
-        },
-        "18": {
-          "title": "Day 18: Proper Watering",
-          "content": "Your seedling's roots are still very small and fragile. Strong watering can dislodge them or compact the substrate.\n\nYour Mission Today: Water with precision and delicacy.\n\nFocus on the Base: Instead of spraying from above, try watering directly on the substrate, at the plant's base. This delivers water where it's needed (at the roots) and keeps the leaves dry, preventing fungi.\n\nUse the Finger Test: The golden rule of gardening starts here. Sink your fingertip about 1 cm into the substrate. If it comes out clean and dry, it's time to water. If it comes out with moist soil, wait another day."
-        },
-        "19": {
-          "title": "Day 19: Identity Revealed",
-          "content": "Look closely at your seedlings. You'll see that above the first two rounded leaves (the cotyledons), new leaves are emerging. And these are different!\n\nYour Mission Today: Identify the \"true leaves\".\n\nWhat Are They? True leaves have the serrated, characteristic shape of an adult hibiscus leaf. They're proof that your seedling has passed the \"baby\" stage and is now a young plant, capable of sustaining itself through photosynthesis.\n\nAn Important Milestone: The emergence of the first pair of true leaves is the greatest indicator of your seedling's health and development so far."
-        },
-        "20": {
-          "title": "Day 20: Admiration and Connection",
-          "content": "Today, your task is simple: just observe. See how the true leaves are bigger than yesterday. Notice the vibrant green color. Feel the substrate.\n\nYour Mission Today: Connect with your plant.\n\nGardening is a mindfulness practice. Taking a moment to appreciate progress, without needing to \"do\" something, is part of the reward. You've guided this tiny life from a hard, dormant seed to a vibrant little plant. Feel proud of that!"
-        },
-        "21": {
-          "title": "Day 21: Graduation and Next Steps",
-          "content": "Congratulations, gardener! You've successfully completed the 21-day germination journey. Your seeds have transformed into young, promising seedlings, ready to grow.\n\nYour Mission Today: Celebrate and plan the future.\n\nWhat to Do Now? Continue the routine of light and watering. Your seedlings are still happy in their small containers.\n\nWhen to Transplant? The next big step will be transplanting to a larger, permanent pot. The rule is to wait until the seedling has at least three pairs of true leaves. At that point, its root system will be strong enough to support the change of home.\n\nYou've taken the first and most crucial step in your hibiscus's life. The journey from here is one of growth, flowering, and much beauty. Happy growing!"
-        }
+      "description": "Learn how to germinate and grow healthy hibiscus with this step-by-step guide"
+    },
+    "hibiscusTutorial": {
+      "title": "Hibiscus Growing Guide",
+      "subtitle": "Complete step-by-step guide to germinate and grow healthy hibiscus",
+      "step1": {
+        "title": "Seed Preparation",
+        "description": "Soak hibiscus seeds in warm water for 24 hours to soften the hard outer shell and improve germination rates."
+      },
+      "step2": {
+        "title": "Planting",
+        "description": "Plant seeds 1/4 inch deep in well-draining soil mix. Keep soil moist but not waterlogged."
+      },
+      "step3": {
+        "title": "Germination",
+        "description": "Place in a warm location (21-29°C). Seeds should germinate in 7-14 days. Keep soil consistently moist."
+      },
+      "step4": {
+        "title": "Seedling Care",
+        "description": "Once sprouted, provide bright indirect light. Water when the top inch of soil is dry."
+      },
+      "step5": {
+        "title": "Transplanting",
+        "description": "When seedlings have 2-3 sets of true leaves, transplant to larger pots with rich, well-draining soil."
+      },
+      "step6": {
+        "title": "Mature Care",
+        "description": "Provide full sun (6+ hours daily), water regularly, and fertilize monthly during growing season."
       }
     },
     "startButton": "Start now",
     "moreComingSoon": "More plants coming soon..."
   },
-  "hibiscus": {
-    "title": "Hibiscus rosa-sinensis - 21-Day Program",
-    "description": "Follow this step-by-step guide to successfully germinate and grow your hibiscus",
-    "day": "Day",
-    "progress": "Progress",
-    "daysCompleted": "days completed",
-    "markComplete": "Mark as complete",
-    "markIncomplete": "Mark as incomplete",
-    "previousDay": "Previous day",
-    "nextDay": "Next day",
-    "days": {
-      "1": {
-        "title": "Day 1: Preparing the Nest",
-        "content": "Today we don't plant, we prepare the perfect nursery for our seeds. Think of this day as setting up a room for a baby that's about to arrive. Every detail matters to ensure they feel safe and comfortable to awaken.\n\nYour Mission Today: Gather and understand each of your materials.\n\nThe Container: Germination Tray or Small Cup?\n\nGermination Tray: Think of it as a luxury condominium for seeds. Each seed has its own \"home\" (cell), with ideal drainage and space to grow without competing with others. The lid that usually comes with it creates a perfect greenhouse effect. It's the professional choice to maximize germination.\n\nPlastic Cups (or yogurt containers): This is the \"do it yourself\" solution, and it works very well! It's like creating several individual little houses. Most important: make 2 to 3 small holes in the bottom of each cup. Without this, water accumulates and the roots of your future plant can rot before they even grow.\n\nThe Substrate: The Seed Bed\n\nWhy a special substrate? The roots of a baby plant are incredibly delicate. They don't have the strength to push through garden soil, which is heavy and compact. We need a fluffy, aerated \"mattress\" that retains moisture just right.\n\nWhat to use? Look in gardening stores for \"Seedling Substrate\" or \"Light Soil\". They come ready-made. If you want to make your own, a great mix is: 2 parts peat, 1 part vermiculite (or perlite) and 1 part worm castings.\n\nWater and the Spray Bottle: The Care of Hydration\n\nWhy a spray bottle? Imagine throwing a bucket of water into a crib. You wouldn't do that, right? A watering can would do the same thing to your seeds: displace them and mess up the substrate. The spray bottle simulates a gentle mist, a caress that moistens the soil without disturbing the seeds that are about to sleep.\n\nThe Cover: The Warm Hug\n\nYou'll need plastic wrap (the kitchen kind) or a transparent lid. This will serve to create a mini-greenhouse environment. Hibiscus are plants of tropical origin. They love heat and humidity! This cover will retain the heat and moisture from the substrate, creating the perfect climate that tells the seed: \"you can wake up, it's safe and cozy out here\".\n\nFun Fact of the Day: The Hibiscus rosa-sinensis we're planting is a traveling plant! Despite the name \"rose of China\", its exact origin is a mystery, but it's believed to come from somewhere in tropical Asia. It spread around the world on ships, winning hearts at every port with its exuberant flowers. Today, we're recreating this tropical climate inside your apartment."
-      },
-      "2": {
-        "title": "Day 2: Awakening the Seeds with an Ancestral Secret",
-        "content": "Seeds are like time capsules, keeping life in a dormant state. The hard shell is armor that protects them during long journeys, whether by wind, water, or in a bird's stomach. Our mission today is to whisper to this armor that it can relax now, because it has arrived at a safe place.\n\nYour Mission Today: Scarify and hydrate the seeds.\n\nScarification: The Key That Opens the Door\n\nWhat is it? It's the act of lightly wearing down the seed coat. Think of it as sanding the paint off a door before applying varnish. This small wear creates microfissures that allow water to penetrate and give the signal \"time to wake up\" to the embryo inside.\n\nHow to Do It: Take a nail file (doesn't need to be new) and gently rub the seed over it a few times. No force needed! The goal is just to remove the shine from a small part of the shell.\n\nHydration: The First Bath of Life\n\nWhat to do: After scarification, place the seeds in a glass with warm water (not hot!). A temperature pleasant to the touch is perfect. Leave them soaking for about 12 to 24 hours.\n\nWhat to expect: You'll see that seeds that were well scarified will swell, sometimes even doubling in size. This is a wonderful sign! It means the water has overcome the armor and the germination process has begun internally.\n\nFun Fact of the Day: In Hawaii, the hibiscus (called \"Pua Aloalo\") is the state flower. Women traditionally wear a hibiscus flower in their hair – behind the right ear if they're available for a relationship, and behind the left if they're committed. The flower lasts only one or two days, a reminder of the delicate and fleeting beauty of life."
-      },
-      "3": {
-        "title": "Day 3: Planting and the Promise of Life",
-        "content": "Today is the big day! The seeds have been prepared and the nursery is ready. Now, let's unite them. The act of planting is an act of faith and hope. We're entrusting a tiny life to the earth, with the promise that we'll take care of it.\n\nYour Mission Today: Sow your hibiscus seeds.\n\nPrepare the Bed: Take your tray or cups and fill with the substrate you set aside on Day 1. Don't compact the soil! Just fill and level gently with your fingers.\n\nMoisten the Substrate: With your spray bottle, give the entire substrate a good moistening. It should be moist like a wrung-out sponge, not dripping. It's easier to moisten well now than after planting.\n\nSowing with Care:\n\nMake a small hole in the center of each cell or cup, about 0.5 cm deep. A good tip is to use the tip of a pencil or your fingertip.\n\nRemove the seeds from the water and place one in each hole.\n\nCover the seed with a thin layer of substrate, without pressing. It just needs to be in the dark to begin.\n\nThe First Blessing: Give a final spray of water over everything. This helps settle the soil around the seed, eliminating air pockets and ensuring good contact.\n\nFun Fact of the Day: The name \"Hibiscus\" was given by the Greek physician and botanist Dioscorides in the first century AD. He was probably referring to a different plant, but the name stuck. The \"rosa-sinensis\" part literally means \"rose of China\", a name given by botanist Carl Linnaeus in the 18th century, consolidating the belief in its Asian origin."
-      },
-      "4": {
-        "title": "Day 4: Building the Tropical Dome",
-        "content": "Today, we'll transform our simple container into a private biosphere. The hibiscus seed holds in its genetic memory the climate of its origins: hot, humid, and muggy. Our mission is to recreate this miniature tropical paradise.\n\nYour Mission Today: Seal the container to create a greenhouse effect.\n\nThe Cover: Take the plastic wrap or transparent lid you set aside on Day 1.\n\nSealing with Care: Cover the mouth of your germination tray or cups. The goal is to create a barrier that prevents moisture from escaping. The water vapor that evaporates from the substrate will be trapped, condense on the plastic surface, and return to the soil, creating a constant moisture cycle.\n\nWhy does this work? This environment simulates the layer of leaves and forest litter of a tropical forest, which keeps the soil moist and warm. It's the definitive signal to the seed, saying: \"The environment is stable and safe, you can germinate without fear\".\n\nFun Fact of the Day: Hibiscus tea, famous worldwide, is not made from the flowers of the Hibiscus rosa-sinensis we're planting! It's made from the calyces of another variety, Hibiscus sabdariffa (known as roselle or sorrel). The flowers we'll have are purely ornamental, but equally spectacular."
-      },
-      "5": {
-        "title": "Day 5: Hunting for the Cozy Corner",
-        "content": "The location of your nursery is one of the most critical factors for success. At this stage, the seed doesn't need strong sun. In fact, direct sun could overheat your mini-greenhouse and \"cook\" the seeds. What it needs is consistent warmth.\n\nYour Mission Today: Find the ideal spot inside your apartment.\n\nThink Warmth, Not Direct Light: Where does that morning sun hit that makes the environment warm? Near a window that receives morning sun is great, but position the containers so the light is indirect.\n\nAlternative Heat Sources: A surprisingly effective location is on top of your refrigerator! The motor generates subtle, consistent heat that rises, warming the base of your tray. Other options are near electronic devices that stay on (like an internet router).\n\nAvoid: Window sills that receive strong afternoon sun and locations with cold drafts (near doors or air conditioning).\n\nFun Fact of the Day: Hibiscus flowers are hermaphroditic, meaning each flower has both male reproductive organs (stamens, which produce pollen) and female organs (the pistil, which receives pollen). This long, prominent structure in the center of the flower is what makes it so unique and is a clue about its fascinating reproductive biology."
-      },
-      "6": {
-        "title": "Day 6: The Guardian of Moisture",
-        "content": "Your mission today seems simple: check the moisture. But what we're really doing is ensuring the perfect water balance. The seed needs water to activate its internal processes, but excess water can \"drown\" it, depriving it of the oxygen needed to breathe and decomposing its protective shell too early.\n\nYour Mission Today: Keep the substrate like a humid forest, not a swamp.\n\nThe Daily Ritual: Lift your cover (plastic wrap or lid) and feel the substrate with your fingertip. It's our moisture thermometer. The soil should stick lightly to your finger.\n\nThe Art of the Spray Bottle: If you feel the top drying out, use the spray bottle. Give 2 to 3 sprays, enough to re-moisten the surface layer. The water will descend slowly. Remember, consistency is more important than quantity. It's better to spray a little every day than to soak the soil once a week.\n\nClose the Greenhouse: Replace the cover. The moisture cycle we created on Day 4 continues to be our best ally.\n\nFun Fact of the Day: Did you know that hibiscus seeds can remain viable (capable of germinating) for several years if stored in dry, cool conditions? They enter a state of deep dormancy, an incredible survival mechanism that allows them to wait for perfect conditions to awaken. What we're doing now is artificially creating these \"perfect conditions\"."
-      },
-      "7": {
-        "title": "Day 7: The Virtue of Patience",
-        "content": "Today, our greatest gardening tool is patience. It's easy to get anxious, wanting to peek under the soil to see if anything is happening. Resist that temptation! The most important work is happening in the dark, in the silence of the substrate. The primary root, called the radicle, is breaking through the shell and digging into the soil, seeking anchorage and the first nutrients.\n\nYour Mission Today: Trust the process and continue the routine.\n\nCheck the Moisture: Do your daily verification ritual. Spray if necessary.\n\nExercise Observation: Look at the soil surface. Don't look for a sprout, but familiarize yourself with the substrate's appearance. This way, any minimal change, like a small crack in the soil, will be easily noticed in the coming days.\n\nChannel the Energy: If you feel the urge to \"do something\", use that energy to research types of hibiscus or plan what the final pot for your seedling will be.\n\nFun Fact of the Day: Hibiscus belongs to the large Malvaceae family, the same as cotton and okra! If you look closely at an okra flower, you'll notice a surprising similarity to the structure of a simple hibiscus. It's a reminder of how plants, even with such different appearances, can be \"cousins\"."
-      },
-      "8": {
-        "title": "Day 8: Eagle Eyes",
-        "content": "From today on, our observation becomes more active. Germination can happen at any moment! Some seeds are more hasty, others more cautious. Your job is to be the first to welcome the sprout that emerges.\n\nYour Mission Today: Look for the first signs of life.\n\nMoisture Routine: First, the usual: check moisture and spray if necessary.\n\nWhat to Look For: Examine the substrate surface carefully. The first sign isn't a leaf, but rather a small \"loop\" or \"elbow\" of light green or whitish color pushing through the soil. It's the stem (hypocotyl) emerging, curved to protect the fragile embryonic leaves. Seeing this is your victory signal!\n\nDon't Worry if You See Nothing: It's perfectly normal that nothing has happened yet. Each seed has its own biological clock. Continue giving it ideal conditions.\n\nFun Fact of the Day: Hibiscus flowers are famous for being short-lived, often opening in the morning and wilting by the end of the afternoon of the same day. Therefore, they're a symbol of beauty and the ephemeral nature of life's precious moments. In some cultures, they represent \"seize the moment\"."
-      },
-      "9": {
-        "title": "Day 9: The Importance of Coziness",
-        "content": "Today, let's focus on the second secret ingredient of germination (the first was moisture): warmth. Hibiscus seeds are like little eggs that need to be \"incubated\". Soil temperature acts as a trigger for chemical reactions inside the seed.\n\nYour Mission Today: Ensure the nursery stays warm.\n\nCheck Moisture and Warmth: Do your routine check. Feel the container's temperature. Is it warm to the touch? Great. If it's cold, you might need to find a warmer location, as suggested on Day 5.\n\nWhy is Warmth Crucial? Heat accelerates the seed's metabolism. It gives the energy for the embryo to expand, break the shell, and send its first root down and its first stem up. Cold soils can delay germination for weeks or even cause the seed to rot.\n\nFun Fact of the Day: There are more than 200 species of hibiscus spread around the world, from giant tropical shrubs to herbaceous plants that survive in temperate climates. Their flowers come in almost every color, except true blue or black (flowers with these colors are usually dyed or digital creations)."
-      },
-      "10": {
-        "title": "Day 10: The Watchful Guard Against Problems",
-        "content": "With such a humid and warm environment, we're creating perfect conditions not only for our seeds but also for unwanted visitors like fungi and mold. Today, our focus is prevention.\n\nYour Mission Today: Inspect the nursery for problems.\n\nVisual Inspection: When checking moisture, look for any spot that looks like white or greenish \"cotton\" on the substrate surface. That's mold.\n\nWhat to Do if You Find Mold? Don't panic.\n\nRemove the plastic cover for a few hours to allow air to circulate and the surface to dry a bit.\n\nIf it's a small spot, you can try removing it with the tip of a toothpick.\n\nThis usually indicates there's a bit of excess water. Reduce the frequency of spraying.\n\nPrevention is Better than Cure: Ensuring air circulation for an hour or two a day can prevent fungi from appearing.\n\nFun Fact of the Day: Hibiscus is rich in antioxidants, especially anthocyanins, which are the pigments that give the intense red color to sabdariffa variety flowers. These compounds are studied for their health benefits, such as blood pressure control. Your tiny seed contains the blueprint to create a small factory of these amazing natural compounds."
-      },
-      "11": {
-        "title": "Day 11: The Silent Factory Underground",
-        "content": "Today is a day to appreciate the invisible. Although your pot's surface looks the same, underground, your hibiscus seed is a small factory working at full steam. The awakening that began with water on Day 2 activated a complex biochemical process.\n\nYour Mission Today: Maintain the routine and understand the seed's internal nutrition.\n\nThe Routine is the Anchor: Continue with your sacred ritual: check the substrate's moisture. The humid and warm environment you created is the fuel for the factory in operation. Spray gently if necessary and replace the cover.\n\nThe Seed's Energy Snack: Inside the shell, the plant embryo is consuming its own snack: the endosperm. Think of the endosperm as the \"egg yolk\" for the seed. It's a nutritious tissue, rich in starch, oils, and proteins, that provides all the energy needed for the embryo to develop its first root (the radicle) and its first stem (the hypocotyl), even before having access to sunlight to feed itself.\n\nTrust Nature: The process is autonomous. The seed knows exactly what to do. Our role isn't to interfere, but to ensure nothing disturbs this delicate process.\n\nFun Fact of the Day: The resilience of seeds is one of nature's miracles. Lotus seeds over 1,300 years old, found in an ancient lake bed in China, were able to germinate! They waited patiently for more than a millennium for the right conditions. Your little hibiscus seed carries that same ancestral strength and that incredible ability to wait for the perfect moment to be born."
-      },
-      "12": {
-        "title": "Day 12: The Maestro of the Microclimate",
-        "content": "Today, let's deepen our understanding of the environment we've created. You're not just a caretaker, you're the maestro of a small ecosystem. Each element – heat, moisture, air – needs to be in harmony for the symphony of germination to happen smoothly.\n\nYour Mission Today: Observe the microclimate signs and maintain consistency.\n\nCheck Moisture and Observe Condensation: When lifting the cover, besides touching the substrate, observe the plastic itself. Do you see small water droplets condensed? Great! This is a visual sign that your greenhouse effect is working perfectly. It means moisture is evaporating, getting trapped, and returning to the soil, creating a constant moisture cycle, exactly as hibiscus loves.\n\nConsistency is Key: Seeds are sensitive to abrupt changes. Extreme temperature variations (for example, moving the container to a cold location at night) can \"confuse\" the seed, slowing or even stopping the germination process. Keeping your nursery in the same warm and stable location is one of the greatest gifts you can give your seeds now.\n\nA Bit of Fresh Air: If condensation is excessive (large drops dripping), it might be a good day to leave the cover slightly open for an hour or two. This renews the air and prevents the environment from becoming too waterlogged, preventing fungi, as we learned on Day 10.\n\nFun Fact of the Day: The hibiscus flower is a classic example of \"pentamerous symmetry\". It has five petals (in simple varieties), and its reproductive structure also divides into multiples of five. In many spiritual and symbolic traditions, the number five represents the five elements (earth, water, fire, air, ether) or the five human senses. By caring for this seed, you're cultivating a future flower that is a small symbol of universal balance and harmony."
-      },
-      "13": {
-        "title": "Day 13: The Tension Before the Premiere",
-        "content": "We're on the eve of our initial 14-day goal. The energy underground is at its peak. The small root is already absorbing moisture and the seedling is gathering its last strength to push through the soil and see light for the first time.\n\nYour Mission Today: Prepare for the welcome.\n\nFinal Greenhouse Check: Do your moisture check with extra care. Today is the last day that the closed environment is the top priority.\n\nObserve Very Carefully: Look for any elevation or minimal crack in the soil. It's the sign that someone is knocking at the door, ready to come out.\n\nPrepare the Next Step: Reread the instructions for Days 15 and 16. As soon as the sprout emerges, its needs will quickly change from \"heat and moisture\" to \"air and light\". Being prepared will make all the difference.\n\nFun Fact of the Day: Hibiscus is known as a \"heliotropic\" plant, meaning its leaves and flowers can follow the sun's trajectory throughout the day to maximize light absorption. You'll observe this behavior very clearly once your seedlings are a bit bigger. It's a reminder that plants, although they seem static, are in constant movement and interaction with their environment."
-      },
-      "14": {
-        "title": "Day 14: Welcome to the World, Little Sprout!",
-        "content": "Today is a day of celebration! It's very likely that around this day, you'll be rewarded for your patience. The first glimpse of green is a magical moment, confirmation that life has found a way.\n\nYour Mission Today: Celebrate and understand what just happened.\n\nWhat You See: What emerges first aren't leaves, but cotyledons. They're the first embryonic \"leaves\" that were stored inside the seed. They function as the baby plant's \"lunchbox\", providing initial energy for it to establish itself before it can make its own food through photosynthesis.\n\nA Shy Sprout: Don't be alarmed if the sprout looks like a small hook or loop. It emerges curved to protect the delicate leaves while pushing through the soil upward. Soon, it will straighten up.\n\nFun Fact of the Day: The vibrant color of hibiscus flowers isn't just to please us. It serves as a landing strip for pollinators, like bees and hummingbirds. Each color and pattern is an evolutionary strategy to attract the right type of pollinator to ensure the plant's reproduction."
-      },
-      "15": {
-        "title": "Day 15: Fresh Air, Please!",
-        "content": "The greenhouse environment was crucial for awakening the seeds, but now it can be harmful, as lack of air circulation can cause the delicate stem to rot (a condition called \"damping off\").\n\nYour Mission Today: Remove the lid and acclimate the seedlings.\n\nRemove the Cover: Permanently remove the plastic wrap or lid from your tray/cups. Let the little seedlings breathe your apartment's air.\n\nMonitor Moisture: Without the cover, the substrate will dry much faster. Your moisture checking routine is now even more important."
-      },
-      "16": {
-        "title": "Day 16: The Light Bath",
-        "content": "Photosynthesis is beginning! This is the incredible process where the plant uses sunlight, water, and carbon dioxide to create its own sugar (energy). Without enough light, your seedling will become pale and elongated, in a desperate effort to reach any light source.\n\nYour Mission Today: Move the seedlings to the sunniest spot you have.\n\nThe Main Window: The window sill that receives the most hours of sun per day is now your seedlings' best friend. In apartments, these are usually north-facing windows.\n\nLight is Energy: Think of light as your plant's main food from now on. The more quality light it receives, the stronger and more robust it will grow."
-      },
-      "17": {
-        "title": "Day 17: The Plant Ballet",
-        "content": "You'll notice something fascinating: your seedlings will visibly lean toward the window. This phenomenon is called phototropism. It's the plant optimizing its leaves' exposure to light.\n\nYour Mission Today: Rotate the containers.\n\nThe 180-Degree Rotation: Once a day, rotate the tray or cups by half. The part that was facing the window now faces inside the apartment.\n\nWhy do this? This simple act \"forces\" the seedling to straighten up and strengthen its stem equally. If you don't do this, it will grow crooked and may become weak. It's a small daily exercise for straight and strong growth."
-      },
-      "18": {
-        "title": "Day 18: Proper Watering",
-        "content": "Your seedling's roots are still very small and fragile. Strong watering can dislodge them or compact the substrate.\n\nYour Mission Today: Water with precision and delicacy.\n\nFocus on the Base: Instead of spraying from above, try watering directly on the substrate, at the plant's base. This delivers water where it's needed (at the roots) and keeps the leaves dry, preventing fungi.\n\nUse the Finger Test: The golden rule of gardening starts here. Sink your fingertip about 1 cm into the substrate. If it comes out clean and dry, it's time to water. If it comes out with moist soil, wait another day."
-      },
-      "19": {
-        "title": "Day 19: Identity Revealed",
-        "content": "Look closely at your seedlings. You'll see that above the first two rounded leaves (the cotyledons), new leaves are emerging. And these are different!\n\nYour Mission Today: Identify the \"true leaves\".\n\nWhat Are They? True leaves have the serrated, characteristic shape of an adult hibiscus leaf. They're proof that your seedling has passed the \"baby\" stage and is now a young plant, capable of sustaining itself through photosynthesis.\n\nAn Important Milestone: The emergence of the first pair of true leaves is the greatest indicator of your seedling's health and development so far."
-      },
-      "20": {
-        "title": "Day 20: Admiration and Connection",
-        "content": "Today, your task is simple: just observe. See how the true leaves are bigger than yesterday. Notice the vibrant green color. Feel the substrate.\n\nYour Mission Today: Connect with your plant.\n\nGardening is a mindfulness practice. Taking a moment to appreciate progress, without needing to \"do\" something, is part of the reward. You've guided this tiny life from a hard, dormant seed to a vibrant little plant. Feel proud of that!"
-      },
-      "21": {
-        "title": "Day 21: Graduation and Next Steps",
-        "content": "Congratulations, gardener! You've successfully completed the 21-day germination journey. Your seeds have transformed into young, promising seedlings, ready to grow.\n\nYour Mission Today: Celebrate and plan the future.\n\nWhat to Do Now? Continue the routine of light and watering. Your seedlings are still happy in their small containers.\n\nWhen to Transplant? The next big step will be transplanting to a larger, permanent pot. The rule is to wait until the seedling has at least three pairs of true leaves. At that point, its root system will be strong enough to support the change of home.\n\nYou've taken the first and most crucial step in your hibiscus's life. The journey from here is one of growth, flowering, and much beauty. Happy growing!"
-      }
-    }
+  "install": {
+    "title": "How to Install Versia Garden",
+    "description": "Install our app on your device for a better experience",
+    "android": {
+      "title": "Android / Chrome",
+      "subtitle": "Install the app on your Android device",
+      "step1": "Open this website in Chrome browser",
+      "step2": "Tap the three-dot menu in the top right corner",
+      "step3": "Select 'Install app' or 'Add to Home screen'",
+      "step4": "Confirm the installation and the app will appear on your home screen",
+      "menuIcon": "Menu (⋮)",
+      "installButton": "Install app"
+    },
+    "ios": {
+      "title": "iPhone / iPad",
+      "subtitle": "Install the app on your iOS device",
+      "step1": "Open this website in Safari browser",
+      "step2": "Tap the share icon in the bottom bar",
+      "step3": "Scroll down and select 'Add to Home Screen'",
+      "step4": "Tap 'Add' to confirm",
+      "shareIcon": "Share (□↑)"
+    },
+    "desktop": {
+      "title": "Desktop / Computer",
+      "subtitle": "Install the app on your computer",
+      "step1": "Open this website in Chrome, Edge, or another compatible browser",
+      "step2": "Look for the install icon in the address bar",
+      "step3": "Click the icon and confirm the installation",
+      "installIcon": "Install icon (⊕)"
+    },
+    "backToHome": "Back to Home"
   }
 }

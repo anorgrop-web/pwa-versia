@@ -2,7 +2,8 @@
   "nav": {
     "home": "Početna",
     "guide": "Vodič za Sadnju",
-    "community": "Zajednica"
+    "community": "Zajednica",
+    "install": "Kako Instalirati"
   },
   "menu": {
     "title": "Izbornik",
@@ -11,7 +12,8 @@
     "plantingArea": "Područje Sadnje",
     "tutorials": "Tutorijali",
     "trackOrders": "Praćenje Narudžbi",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "install": "Kako Instalirati"
   },
   "header": {
     "logo": "Versia Garden",
@@ -20,7 +22,7 @@
   },
   "banner": {
     "title": "Dobrodošli u vaš vrt",
-    "subtitle": "Uzgajajte s mudrošću, berite s radošću",
+    "subtitle": "Uzgajajte s mudrošću, berite s radošću.",
     "cta": "Počnite sada"
   },
   "home": {
@@ -224,5 +226,37 @@
     "biweekly": "Dvotjedno",
     "monthly": "Mjesečno",
     "quarterly": "Tromjesečno"
+  },
+  "install": {
+    "title": "Kako Instalirati Versia Garden",
+    "description": "Instalirajte našu aplikaciju na svoj uređaj za bolje iskustvo",
+    "android": {
+      "title": "Android / Chrome",
+      "subtitle": "Instalirajte aplikaciju na svoj Android uređaj",
+      "step1": "Otvorite ovu web stranicu u Chrome pregledniku",
+      "step2": "Dodirnite izbornik s tri točke u gornjem desnom kutu",
+      "step3": "Odaberite 'Instaliraj aplikaciju' ili 'Dodaj na početni zaslon'",
+      "step4": "Potvrdite instalaciju i aplikacija će se pojaviti na vašem početnom zaslonu",
+      "menuIcon": "Izbornik (⋮)",
+      "installButton": "Instaliraj aplikaciju"
+    },
+    "ios": {
+      "title": "iPhone / iPad",
+      "subtitle": "Instalirajte aplikaciju na svoj iOS uređaj",
+      "step1": "Otvorite ovu web stranicu u Safari pregledniku",
+      "step2": "Dodirnite ikonu dijeljenja u donjoj traci",
+      "step3": "Pomaknite se prema dolje i odaberite 'Dodaj na početni zaslon'",
+      "step4": "Dodirnite 'Dodaj' za potvrdu",
+      "shareIcon": "Dijeli (□↑)"
+    },
+    "desktop": {
+      "title": "Desktop / Računalo",
+      "subtitle": "Instalirajte aplikaciju na svoje računalo",
+      "step1": "Otvorite ovu web stranicu u Chrome, Edge ili drugom kompatibilnom pregledniku",
+      "step2": "Potražite ikonu instalacije u adresnoj traci",
+      "step3": "Kliknite na ikonu i potvrdite instalaciju",
+      "installIcon": "Ikona instalacije (⊕)"
+    },
+    "backToHome": "Natrag na Početnu"
   }
 }

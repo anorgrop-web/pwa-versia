@@ -2,6 +2,8 @@ import { createServerClient } from "@supabase/ssr"
 import { NextResponse, type NextRequest } from "next/server"
 
 export async function updateSession(request: NextRequest) {
+  console.log("[v0] Middleware - Processing request for:", request.nextUrl.pathname)
+
   let supabaseResponse = NextResponse.next({
     request,
   })
@@ -37,12 +39,18 @@ export async function updateSession(request: NextRequest) {
     data: { user },
   } = await supabase.auth.getUser()
 
+  console.log("[v0] Middleware - User authenticated:", !!user)
+
   // Define public routes that don't require authentication
   const publicRoutes = ["/login", "/signup", "/signup/success", "/policies", "/install"]
   const isPublicRoute = publicRoutes.some((route) => request.nextUrl.pathname.startsWith(route))
 
+  console.log("[v0] Middleware - Is public route:", isPublicRoute)
+  console.log("[v0] Middleware - Public routes:", publicRoutes)
+
   // If user is not authenticated and trying to access a protected route, redirect to login
   if (!user && !isPublicRoute) {
+    console.log("[v0] Middleware - Redirecting to login (not authenticated + not public route)")
     const url = request.nextUrl.clone()
     url.pathname = "/login"
     return NextResponse.redirect(url)
@@ -50,10 +58,13 @@ export async function updateSession(request: NextRequest) {
 
   // If user is authenticated and trying to access login/signup, redirect to home
   if (user && (request.nextUrl.pathname === "/login" || request.nextUrl.pathname === "/signup")) {
+    console.log("[v0] Middleware - Redirecting to home (authenticated user on login/signup)")
     const url = request.nextUrl.clone()
     url.pathname = "/"
     return NextResponse.redirect(url)
   }
+
+  console.log("[v0] Middleware - Allowing request to proceed")
 
   // IMPORTANT: You *must* return the supabaseResponse object as it is.
   return supabaseResponse

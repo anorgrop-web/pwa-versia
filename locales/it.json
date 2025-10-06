@@ -2,7 +2,8 @@
   "nav": {
     "home": "Home",
     "guide": "Guida alla Piantagione",
-    "community": "Comunità"
+    "community": "Comunità",
+    "install": "Come Installare"
   },
   "menu": {
     "title": "Menu",
@@ -11,7 +12,8 @@
     "plantingArea": "Area di Piantagione",
     "tutorials": "Tutorial",
     "trackOrders": "Traccia Ordini",
-    "contact": "Contatto"
+    "contact": "Contatto",
+    "install": "Come Installare"
   },
   "header": {
     "logo": "Versia Garden",
@@ -20,7 +22,7 @@
   },
   "banner": {
     "title": "Benvenuto nel tuo giardino",
-    "subtitle": "Coltiva con saggezza, raccogli con gioia",
+    "subtitle": "Coltiva con saggezza, raccogli con gioia.",
     "cta": "Inizia ora"
   },
   "home": {
@@ -224,5 +226,37 @@
     },
     "startButton": "Inizia ora",
     "moreComingSoon": "Altre piante in arrivo..."
+  },
+  "install": {
+    "title": "Come Installare Versia Garden",
+    "description": "Installa la nostra app sul tuo dispositivo per un'esperienza migliore",
+    "android": {
+      "title": "Android / Chrome",
+      "subtitle": "Installa l'app sul tuo dispositivo Android",
+      "step1": "Apri questo sito web nel browser Chrome",
+      "step2": "Tocca il menu a tre punti nell'angolo in alto a destra",
+      "step3": "Seleziona 'Installa app' o 'Aggiungi a schermata Home'",
+      "step4": "Conferma l'installazione e l'app apparirà sulla tua schermata Home",
+      "menuIcon": "Menu (⋮)",
+      "installButton": "Installa app"
+    },
+    "ios": {
+      "title": "iPhone / iPad",
+      "subtitle": "Installa l'app sul tuo dispositivo iOS",
+      "step1": "Apri questo sito web nel browser Safari",
+      "step2": "Tocca l'icona di condivisione nella barra inferiore",
+      "step3": "Scorri verso il basso e seleziona 'Aggiungi a schermata Home'",
+      "step4": "Tocca 'Aggiungi' per confermare",
+      "shareIcon": "Condividi (□↑)"
+    },
+    "desktop": {
+      "title": "Desktop / Computer",
+      "subtitle": "Installa l'app sul tuo computer",
+      "step1": "Apri questo sito web in Chrome, Edge o un altro browser compatibile",
+      "step2": "Cerca l'icona di installazione nella barra degli indirizzi",
+      "step3": "Fai clic sull'icona e conferma l'installazione",
+      "installIcon": "Icona di installazione (⊕)"
+    },
+    "backToHome": "Torna alla Home"
   }
 }

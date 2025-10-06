@@ -20,7 +20,7 @@
   },
   "banner": {
     "title": "Bienvenido a tu jardín",
-    "subtitle": "Cultiva con sabiduría, cosecha con alegría",
+    "subtitle": "Cultiva con sabiduría, cosecha con alegría.",
     "cta": "Comenzar ahora"
   },
   "home": {
@@ -224,5 +224,37 @@
     "biweekly": "Quincenal",
     "monthly": "Mensual",
     "quarterly": "Trimestral"
+  },
+  "install": {
+    "title": "Cómo Instalar Versia Garden",
+    "description": "Instala nuestra aplicación en tu dispositivo para una mejor experiencia",
+    "android": {
+      "title": "Android / Chrome",
+      "subtitle": "Instala la app en tu dispositivo Android",
+      "step1": "Abre este sitio web en el navegador Chrome",
+      "step2": "Toca el menú de tres puntos en la esquina superior derecha",
+      "step3": "Selecciona 'Instalar aplicación' o 'Añadir a pantalla de inicio'",
+      "step4": "Confirma la instalación y la app aparecerá en tu pantalla de inicio",
+      "menuIcon": "Menú (⋮)",
+      "installButton": "Instalar aplicación"
+    },
+    "ios": {
+      "title": "iPhone / iPad",
+      "subtitle": "Instala la app en tu dispositivo iOS",
+      "step1": "Abre este sitio web en el navegador Safari",
+      "step2": "Toca el ícono de compartir en la barra inferior",
+      "step3": "Desplázate hacia abajo y selecciona 'Añadir a pantalla de inicio'",
+      "step4": "Toca 'Añadir' para confirmar",
+      "shareIcon": "Compartir (□↑)"
+    },
+    "desktop": {
+      "title": "Escritorio / Computadora",
+      "subtitle": "Instala la app en tu computadora",
+      "step1": "Abre este sitio web en Chrome, Edge u otro navegador compatible",
+      "step2": "Busca el ícono de instalación en la barra de direcciones",
+      "step3": "Haz clic en el ícono y confirma la instalación",
+      "installIcon": "Ícono de instalación (⊕)"
+    },
+    "backToHome": "Volver al Inicio"
   }
 }

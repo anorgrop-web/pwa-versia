@@ -2,7 +2,8 @@
   "nav": {
     "home": "Startseite",
     "guide": "Pflanzanleitung",
-    "community": "Gemeinschaft"
+    "community": "Gemeinschaft",
+    "install": "Installation"
   },
   "menu": {
     "title": "Menü",
@@ -11,7 +12,8 @@
     "plantingArea": "Pflanzbereich",
     "tutorials": "Tutorials",
     "trackOrders": "Bestellungen verfolgen",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "install": "Installation"
   },
   "header": {
     "logo": "Versia Garden",
@@ -20,7 +22,7 @@
   },
   "banner": {
     "title": "Willkommen in Ihrem Garten",
-    "subtitle": "Mit Weisheit kultivieren, mit Freude ernten",
+    "subtitle": "Mit Weisheit kultivieren, mit Freude ernten.",
     "cta": "Jetzt beginnen"
   },
   "home": {
@@ -224,5 +226,37 @@
     "biweekly": "Zweiwöchentlich",
     "monthly": "Monatlich",
     "quarterly": "Vierteljährlich"
+  },
+  "install": {
+    "title": "So Installieren Sie Versia Garden",
+    "description": "Installieren Sie unsere App auf Ihrem Gerät für ein besseres Erlebnis",
+    "android": {
+      "title": "Android / Chrome",
+      "subtitle": "Installieren Sie die App auf Ihrem Android-Gerät",
+      "step1": "Öffnen Sie diese Website im Chrome-Browser",
+      "step2": "Tippen Sie auf das Drei-Punkte-Menü in der oberen rechten Ecke",
+      "step3": "Wählen Sie 'App installieren' oder 'Zum Startbildschirm hinzufügen'",
+      "step4": "Bestätigen Sie die Installation und die App erscheint auf Ihrem Startbildschirm",
+      "menuIcon": "Menü (⋮)",
+      "installButton": "App installieren"
+    },
+    "ios": {
+      "title": "iPhone / iPad",
+      "subtitle": "Installieren Sie die App auf Ihrem iOS-Gerät",
+      "step1": "Öffnen Sie diese Website im Safari-Browser",
+      "step2": "Tippen Sie auf das Teilen-Symbol in der unteren Leiste",
+      "step3": "Scrollen Sie nach unten und wählen Sie 'Zum Home-Bildschirm'",
+      "step4": "Tippen Sie auf 'Hinzufügen' zum Bestätigen",
+      "shareIcon": "Teilen (□↑)"
+    },
+    "desktop": {
+      "title": "Desktop / Computer",
+      "subtitle": "Installieren Sie die App auf Ihrem Computer",
+      "step1": "Öffnen Sie diese Website in Chrome, Edge oder einem anderen kompatiblen Browser",
+      "step2": "Suchen Sie nach dem Installationssymbol in der Adressleiste",
+      "step3": "Klicken Sie auf das Symbol und bestätigen Sie die Installation",
+      "installIcon": "Installationssymbol (⊕)"
+    },
+    "backToHome": "Zurück zur Startseite"
   }
 }

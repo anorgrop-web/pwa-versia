@@ -20,8 +20,8 @@
     "menu": "Menu"
   },
   "banner": {
-    "title": "Bem-vindo ao seu jardim",
-    "subtitle": "Cultive com sabedoria, colha com alegria",
+    "title": "Bem-vindo ao seu jardim!",
+    "subtitle": "Cultive com sabedoria, colha com alegria.",
     "cta": "Começar agora"
   },
   "home": {
@@ -40,19 +40,35 @@
   },
   "install": {
     "title": "Como Instalar o Versia Garden",
-    "ios": {
-      "title": "Para iPhone (iOS)",
-      "step1": "Abra o navegador Safari e acesse nosso site.",
-      "step2": "Toque no ícone de Compartilhamento na barra inferior.",
-      "step3": "Role para baixo e selecione \"Adicionar à Tela de Início\".",
-      "step4": "Toque em \"Adicionar\" no canto superior direito para confirmar."
-    },
+    "description": "Instale nosso aplicativo em seu dispositivo para uma experiência melhor",
     "android": {
-      "title": "Para Android",
-      "step1": "Abra o navegador Chrome e acesse nosso site.",
-      "step2": "Um convite para instalar o aplicativo deve aparecer. Toque em \"Instalar\".",
-      "step3": "Se o convite não aparecer, toque no menu de três pontos no canto superior direito e selecione \"Instalar aplicativo\"."
-    }
+      "title": "Android / Chrome",
+      "subtitle": "Instale o app no seu dispositivo Android",
+      "step1": "Abra este site no navegador Chrome",
+      "step2": "Toque no menu de três pontos no canto superior direito",
+      "step3": "Selecione 'Instalar aplicativo' ou 'Adicionar à tela inicial'",
+      "step4": "Confirme a instalação e o app aparecerá na sua tela inicial",
+      "menuIcon": "Menu (⋮)",
+      "installButton": "Instalar aplicativo"
+    },
+    "ios": {
+      "title": "iPhone / iPad",
+      "subtitle": "Instale o app no seu dispositivo iOS",
+      "step1": "Abra este site no navegador Safari",
+      "step2": "Toque no ícone de compartilhar na barra inferior",
+      "step3": "Role para baixo e selecione 'Adicionar à Tela de Início'",
+      "step4": "Toque em 'Adicionar' para confirmar",
+      "shareIcon": "Compartilhar (□↑)"
+    },
+    "desktop": {
+      "title": "Desktop / Computador",
+      "subtitle": "Instale o app no seu computador",
+      "step1": "Abra este site no Chrome, Edge ou outro navegador compatível",
+      "step2": "Procure pelo ícone de instalação na barra de endereços",
+      "step3": "Clique no ícone e confirme a instalação",
+      "installIcon": "Ícone de instalação (⊕)"
+    },
+    "backToHome": "Voltar para Início"
   },
   "profile": {
     "title": "Perfil",
@@ -156,7 +172,7 @@
       },
       "4": {
         "title": "Dia 4: Construindo a Cúpula Tropical",
-        "content": "Hoje, transformaremos nosso simples recipiente em uma biosfera particular. A semente do hibisco guarda na sua memória genética o clima das suas origens: quente, úmido e abafado. Nossa missão é recriar esse paraíso tropical em miniatura.\n\nSua Missão de Hoje: Selar o recipiente para criar um efeito estufa.\n\nA Cobertura: Pegue o plástico filme ou a tampa transparente que você separou no Dia 1.\n\nSelando com Cuidado: Cubra a boca da sua bandeja germinadora ou dos seus copinhos. O objetivo é criar uma barreira que impeça a umidade de escapar. O vapor da água que evaporar do substrato ficará preso, condensará na superfície do plástico e voltará para a terra, criando um ciclo de umidade constante.\n\nPor que isso funciona? Este ambiente simula a camada de folhas e serrapilheira de uma floresta tropical, que mantém o solo úmido e aquecido. É o sinal definitivo para a semente, dizendo: \"O ambiente está estável e seguro, pode germinar sem medo\".\n\nCuriosidade do Dia: O chá de hibisco, famoso mundialmente, não é feito das flores do Hibiscus rosa-sinensis que estamos a plantar! Ele é feito dos cálices de outra variedade, a Hibiscus sabdariffa (conhecida como vinagreira ou rosela). As flores que teremos são puramente ornamentais, mas igualmente espetaculares."
+        "content": "Hoje, transformaremos nosso simples recipiente em uma biosfera particular. A semente do hibisco guarda na sua memória genética o clima das suas origens: quente, úmido e abafado. Nossa missão é recriar esse paraíso tropical em miniatura.\n\nSua Missão de Hoje: Selar o recipiente para criar um efeito estufa.\n\nA Cobertura: Pegue o plástico filme ou a tampa transparente que você separou no Dia 1.\n\nSelando com Cuidado: Cubra a boca da sua bandeja germinadora ou dos seus copinhos. O objetivo é criar uma barreira que impeça a umidade de escapar. O vapor da água que evaporar do substrato ficará preso, condensará na superfície do plástico e voltará para a terra, criando um ciclo de umidade constante, exatamente como o hibisco adora.\n\nPor que isso funciona? Este ambiente simula a camada de folhas e serrapilheira de uma floresta tropical, que mantém o solo úmido e aquecido. É o sinal definitivo para a semente, dizendo: \"O ambiente está estável e seguro, pode germinar sem medo\".\n\nCuriosidade do Dia: O chá de hibisco, famoso mundialmente, não é feito das flores do Hibiscus rosa-sinensis que estamos a plantar! Ele é feito dos cálices de outra variedade, a Hibiscus sabdariffa (conhecida como vinagreira ou rosela). As flores que teremos são puramente ornamentais, mas igualmente espetaculares."
       },
       "5": {
         "title": "Dia 5: A Caça ao Cantinho Aconchegante",

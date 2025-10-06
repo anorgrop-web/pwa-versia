@@ -2,7 +2,8 @@
   "nav": {
     "home": "Strona Główna",
     "guide": "Przewodnik Sadzenia",
-    "community": "Społeczność"
+    "community": "Społeczność",
+    "install": "Jak Zainstalować"
   },
   "menu": {
     "title": "Menu",
@@ -11,7 +12,8 @@
     "plantingArea": "Obszar Sadzenia",
     "tutorials": "Samouczki",
     "trackOrders": "Śledź Zamówienia",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "install": "Jak Zainstalować"
   },
   "header": {
     "logo": "Versia Garden",
@@ -20,7 +22,7 @@
   },
   "banner": {
     "title": "Witamy w Twoim ogrodzie",
-    "subtitle": "Uprawiaj z mądrością, zbieraj z radością",
+    "subtitle": "Uprawiaj z mądrością, zbieraj z radością.",
     "cta": "Zacznij teraz"
   },
   "home": {
@@ -224,5 +226,37 @@
     "biweekly": "Co Dwa Tygodnie",
     "monthly": "Miesięcznie",
     "quarterly": "Kwartalnie"
+  },
+  "install": {
+    "title": "Jak Zainstalować Versia Garden",
+    "description": "Zainstaluj naszą aplikację na swoim urządzeniu dla lepszego doświadczenia",
+    "android": {
+      "title": "Android / Chrome",
+      "subtitle": "Zainstaluj aplikację na swoim urządzeniu Android",
+      "step1": "Otwórz tę stronę w przeglądarce Chrome",
+      "step2": "Dotknij menu z trzema kropkami w prawym górnym rogu",
+      "step3": "Wybierz 'Zainstaluj aplikację' lub 'Dodaj do ekranu głównego'",
+      "step4": "Potwierdź instalację, a aplikacja pojawi się na ekranie głównym",
+      "menuIcon": "Menu (⋮)",
+      "installButton": "Zainstaluj aplikację"
+    },
+    "ios": {
+      "title": "iPhone / iPad",
+      "subtitle": "Zainstaluj aplikację na swoim urządzeniu iOS",
+      "step1": "Otwórz tę stronę w przeglądarce Safari",
+      "step2": "Dotknij ikony udostępniania na dolnym pasku",
+      "step3": "Przewiń w dół i wybierz 'Dodaj do ekranu głównego'",
+      "step4": "Dotknij 'Dodaj' aby potwierdzić",
+      "shareIcon": "Udostępnij (□↑)"
+    },
+    "desktop": {
+      "title": "Desktop / Komputer",
+      "subtitle": "Zainstaluj aplikację na swoim komputerze",
+      "step1": "Otwórz tę stronę w Chrome, Edge lub innej kompatybilnej przeglądarce",
+      "step2": "Poszukaj ikony instalacji na pasku adresu",
+      "step3": "Kliknij ikonę i potwierdź instalację",
+      "installIcon": "Ikona instalacji (⊕)"
+    },
+    "backToHome": "Powrót do Strony Głównej"
   }
 }

@@ -9,7 +9,7 @@ begin
   insert into public.profiles (id, name, email, created_at, updated_at)
   values (
     new.id,
-    coalesce(new.raw_user_meta_data ->> 'name', null),
+    coalesce(new.raw_user_meta_data ->> 'full_name', null),
     new.email,
     now(),
     now()

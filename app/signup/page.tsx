@@ -15,9 +15,7 @@ import { Label } from "@/components/ui/label"
 export default function SignupPage() {
   const { t } = useTranslation()
   const router = useRouter()
-  const [firstName, setFirstName] = useState("")
-  const [lastName, setLastName] = useState("")
-  const [phone, setPhone] = useState("")
+  const [fullName, setFullName] = useState("")
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [error, setError] = useState<string | null>(null)
@@ -36,9 +34,7 @@ export default function SignupPage() {
         options: {
           emailRedirectTo: process.env.NEXT_PUBLIC_DEV_SUPABASE_REDIRECT_URL || `${window.location.origin}/`,
           data: {
-            first_name: firstName,
-            last_name: lastName,
-            phone: phone,
+            full_name: fullName,
           },
         },
       })
@@ -64,45 +60,17 @@ export default function SignupPage() {
           </CardHeader>
           <CardContent>
             <form onSubmit={handleSignup} className="space-y-4">
-              <div className="grid grid-cols-2 gap-4">
-                <div className="space-y-2">
-                  <Label htmlFor="firstName" className="text-foreground">
-                    {t("auth.firstNameLabel")}
-                  </Label>
-                  <Input
-                    id="firstName"
-                    type="text"
-                    value={firstName}
-                    onChange={(e) => setFirstName(e.target.value)}
-                    required
-                    className="w-full"
-                  />
-                </div>
-                <div className="space-y-2">
-                  <Label htmlFor="lastName" className="text-foreground">
-                    {t("auth.lastNameLabel")}
-                  </Label>
-                  <Input
-                    id="lastName"
-                    type="text"
-                    value={lastName}
-                    onChange={(e) => setLastName(e.target.value)}
-                    required
-                    className="w-full"
-                  />
-                </div>
-              </div>
-
               <div className="space-y-2">
-                <Label htmlFor="phone" className="text-foreground">
-                  {t("auth.phoneLabel")}
+                <Label htmlFor="fullName" className="text-foreground">
+                  {t("auth.fullNameLabel")}
                 </Label>
                 <Input
-                  id="phone"
-                  type="tel"
-                  placeholder={t("auth.phonePlaceholder")}
-                  value={phone}
-                  onChange={(e) => setPhone(e.target.value)}
+                  id="fullName"
+                  type="text"
+                  placeholder={t("auth.fullNamePlaceholder")}
+                  value={fullName}
+                  onChange={(e) => setFullName(e.target.value)}
+                  required
                   className="w-full"
                 />
               </div>

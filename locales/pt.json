@@ -272,7 +272,12 @@
     "loggingIn": "Entrando...",
     "creatingAccount": "Criando conta...",
     "emailPlaceholder": "seu@email.com",
-    "inactivityLogout": "Você foi desconectado por inatividade. Por favor, faça login novamente."
+    "inactivityLogout": "Você foi desconectado por inatividade. Por favor, faça login novamente.",
+    "emailConfirmedTitle": "E-mail Confirmado!",
+    "emailConfirmedMessage": "Seu e-mail foi verificado com sucesso. Agora você pode fazer login na sua conta.",
+    "errorTitle": "Erro na Verificação",
+    "errorMessage": "Não foi possível verificar seu e-mail. O link pode ter expirado ou já foi utilizado. Tente criar uma nova conta.",
+    "tryAgainButton": "Tentar Novamente"
   },
   "autoLogout": {
     "warningTitle": "Sessão Expirando",

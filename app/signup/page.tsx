@@ -28,11 +28,15 @@ export default function SignupPage() {
     setError(null)
 
     try {
+      const redirectUrl = process.env.NEXT_PUBLIC_SITE_URL 
+        ? `${process.env.NEXT_PUBLIC_SITE_URL}/auth/callback`
+        : `${window.location.origin}/auth/callback`
+      
       const { error } = await supabase.auth.signUp({
         email,
         password,
         options: {
-          emailRedirectTo: process.env.NEXT_PUBLIC_DEV_SUPABASE_REDIRECT_URL || `${window.location.origin}/`,
+          emailRedirectTo: redirectUrl,
           data: {
             full_name: fullName,
           },

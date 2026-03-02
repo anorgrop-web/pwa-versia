@@ -2,7 +2,7 @@
 
 import type React from "react"
 
-import { useEffect, useState } from "react"
+import { useEffect, useState, useMemo } from "react"
 import { useRouter, usePathname } from "next/navigation"
 import { createClient } from "@/lib/supabase/client"
 import { useIdleTimer } from "@/hooks/use-idle-timer"
@@ -35,7 +35,7 @@ export function AutoLogoutProvider({
   const [showWarning, setShowWarning] = useState(false)
   const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [countdown, setCountdown] = useState(warningTime / 1000)
-  const supabase = createClient()
+  const supabase = useMemo(() => createClient(), [])
 
   // Check if user is authenticated
   useEffect(() => {

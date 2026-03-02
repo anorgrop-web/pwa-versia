@@ -1,6 +1,6 @@
 "use client"
 
-import { Tag, PlayCircle, Package, Mail, Repeat, Sprout } from "lucide-react"
+import { Tag, PlayCircle, Mail, Repeat, Sprout } from "lucide-react"
 import { useTranslation } from "react-i18next"
 import { useRouter, usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
@@ -33,13 +33,14 @@ export function SideDrawer({ isOpen, onClose }: SideDrawerProps) {
       route: "/area-plantio",
     },
     { id: "tutorials", icon: PlayCircle, label: t("menu.tutorials"), type: "internal" as const },
-    {
-      id: "trackOrders",
-      icon: Package,
-      label: t("menu.trackOrders"),
-      type: "external" as const,
-      url: "https://www.beversia.com/",
-    },
+    // TODO: Rastreamento de pedidos oculto temporariamente
+    // {
+    //   id: "trackOrders",
+    //   icon: Package,
+    //   label: t("menu.trackOrders"),
+    //   type: "external" as const,
+    //   url: "https://www.beversia.com/",
+    // },
     { id: "contact", icon: Mail, label: t("menu.contact"), type: "internal" as const, route: "/contact" },
   ]
 

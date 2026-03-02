@@ -15,7 +15,7 @@ import { Label } from "@/components/ui/label"
 export default function SignupPage() {
   const { t } = useTranslation()
   const router = useRouter()
-  const [name, setName] = useState("")
+  const [fullName, setFullName] = useState("")
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [error, setError] = useState<string | null>(null)
@@ -34,7 +34,7 @@ export default function SignupPage() {
         options: {
           emailRedirectTo: process.env.NEXT_PUBLIC_DEV_SUPABASE_REDIRECT_URL || `${window.location.origin}/`,
           data: {
-            name: name,
+            full_name: fullName,
           },
         },
       })
@@ -61,14 +61,15 @@ export default function SignupPage() {
           <CardContent>
             <form onSubmit={handleSignup} className="space-y-4">
               <div className="space-y-2">
-                <Label htmlFor="name" className="text-foreground">
-                  {t("auth.nameLabel")}
+                <Label htmlFor="fullName" className="text-foreground">
+                  {t("auth.fullNameLabel")}
                 </Label>
                 <Input
-                  id="name"
+                  id="fullName"
                   type="text"
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
+                  placeholder={t("auth.fullNamePlaceholder")}
+                  value={fullName}
+                  onChange={(e) => setFullName(e.target.value)}
                   required
                   className="w-full"
                 />
